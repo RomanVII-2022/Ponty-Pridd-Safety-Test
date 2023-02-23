@@ -1,0 +1,6 @@
+2023-02-23 16:03:53,794 : DEBUG : test_login : 13 : **** Website accessed successfully ****
+2023-02-23 16:03:53,800 : DEBUG : test_login : 16 : **** Website title matches ****
+2023-02-23 16:04:25,134 : DEBUG : loginPage : 14 : **** Email was entered successfully ****
+2023-02-23 16:04:34,029 : DEBUG : loginPage : 24 : **** Password was entered successfully ****
+2023-02-23 16:04:34,061 : DEBUG : loginPage : 33 : **** Login button was clicked successfully ****
+2023-02-23 16:04:44,078 : DEBUG : test_login : 33 : **** Login was successfull ****
