@@ -1,10 +1,13 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class Login:
     def __init__(self, driver, logger):
         self.driver = driver
         self.logger = logger
+        self.wait = WebDriverWait(driver=self.driver, timeout=10, poll_frequency=0.5, ignored_exceptions=None)
 
     def enterEmail(self, email):
         try:
@@ -33,6 +36,14 @@ class Login:
             self.logger.debug("**** Login button was clicked successfully ****")
         except:
             self.logger.debug("**** Login button was not found ****")
+
+    def errorMessage(self):
+        try:
+            err = self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='errmsg']")))
+            self.logger.debug("**** Error message was found successfully ****")
+            return err.text
+        except:
+            self.logger.debug("**** Error message was not found ****")
 
 
 

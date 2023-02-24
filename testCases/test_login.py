@@ -24,8 +24,8 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail(input("Enter email: "))
-        login.enterPassword(input("Enter password: "))
+        login.enterEmail("admin@pontypriddholdings.com")
+        login.enterPassword("123456")
         login.clickLogin()
         time.sleep(3)
         Url = self.driver.current_url
@@ -37,7 +37,59 @@ class Test_001_Login:
             self.logger.debug("**** Something went wrong while logging in ****")
             assert False
 
+    def test_login_wrong_email(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        time.sleep(3)
+        login.enterEmail("abc@pontypriddholdings.com")
+        time.sleep(3)
+        login.enterPassword("123456")
+        time.sleep(3)
+        login.clickLogin()
+        errormsg = login.errorMessage()
+        if errormsg == "Account with Email not Found":
+            assert True
+        else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/wrongemail.png")
+            self.logger.debug("**** Error messsage shown did not match ****")
+            assert False
 
+    def test_login_wrong_password(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        time.sleep(3)
+        login.enterEmail("admin@pontypriddholdings.com")
+        time.sleep(3)
+        login.enterPassword("1234")
+        time.sleep(3)
+        login.clickLogin()
+        errormsg = login.errorMessage()
+        if errormsg == "Email and Password do not Match":
+            assert True
+        else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/wrongpassword.png")
+            self.logger.debug("**** Error messsage shown did not match ****")
+            assert False
+
+    def test_login_wrong_credentials(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        time.sleep(3)
+        login.enterEmail("abc@pontypriddholdings.com")
+        time.sleep(3)
+        login.enterPassword("1234")
+        time.sleep(3)
+        login.clickLogin()
+        errormsg = login.errorMessage()
+        if errormsg == "Account with Email not Found":
+            assert True
+        else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/wrongcredentials.png")
+            self.logger.debug("**** Error messsage shown did not match ****")
+            assert False
 
 
 
