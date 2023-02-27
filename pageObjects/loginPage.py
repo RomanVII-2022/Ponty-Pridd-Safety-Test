@@ -40,10 +40,46 @@ class Login:
     def errorMessage(self):
         try:
             err = self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='errmsg']")))
-            self.logger.debug("**** Error message was found successfully ****")
+            self.logger.debug("**** Message was found successfully ****")
             return err.text
         except:
             self.logger.debug("**** Error message was not found ****")
+
+    def forgotPassword(self):
+        try:
+            forgotlink = self.driver.find_element(By.XPATH, "//a[normalize-space()='Forgot Password?']")
+            forgotlink.click()
+            self.logger.debug("**** Forgot password link was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong while finding forgot password link ****")
+
+
+    def forgotEmail(self, email):
+        try:
+            emailInput = self.driver.find_element(By.XPATH, "//input[@id='reset-email']")
+            emailInput.clear()
+            emailInput.send_keys(email)
+            self.logger.debug("**** Email was entered successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong while entering reset password email ****")
+
+
+    def resetBtn(self):
+        try:
+            button = self.driver.find_element(By.XPATH, "//input[@value='Reset']")
+            button.click()
+            self.logger.debug("**** Reset button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong while clicking the reset button ****")
+
+
+    def passwordResetEmail(self):
+        try:
+            msg = self.driver.find_element(By.XPATH, "//h4[normalize-space()='An email with the reset link has been sent.']")
+            self.logger.debug("**** Password reset alert message was found successfully ****")
+            return msg.text
+        except:
+            self.logger.debug("**** Something went wrong while finding password reset alert message ****")
 
 
 

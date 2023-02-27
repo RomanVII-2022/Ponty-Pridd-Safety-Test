@@ -41,11 +41,8 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        time.sleep(3)
         login.enterEmail("abc@pontypriddholdings.com")
-        time.sleep(3)
         login.enterPassword("123456")
-        time.sleep(3)
         login.clickLogin()
         errormsg = login.errorMessage()
         if errormsg == "Account with Email not Found":
@@ -59,11 +56,8 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        time.sleep(3)
         login.enterEmail("admin@pontypriddholdings.com")
-        time.sleep(3)
         login.enterPassword("1234")
-        time.sleep(3)
         login.clickLogin()
         errormsg = login.errorMessage()
         if errormsg == "Email and Password do not Match":
@@ -77,11 +71,8 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        time.sleep(3)
         login.enterEmail("abc@pontypriddholdings.com")
-        time.sleep(3)
         login.enterPassword("1234")
-        time.sleep(3)
         login.clickLogin()
         errormsg = login.errorMessage()
         if errormsg == "Account with Email not Found":
@@ -89,6 +80,40 @@ class Test_001_Login:
         else:
             self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/wrongcredentials.png")
             self.logger.debug("**** Error messsage shown did not match ****")
+            assert False
+
+
+    def test_password_reset(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        login.forgotPassword()
+        login.forgotEmail("abc@gmail.com")
+        login.resetBtn()
+        msg = login.passwordResetEmail()
+        if msg == "An email with the reset link has been sent.":
+            self.logger.debug("**** The two alert messages matched ****")
+            assert True
+        else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/passwordreset.png")
+            self.logger.debug("**** The two alert messages did not match ****")
+            assert False
+
+
+    def test_unregistered_email_password_reset(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        login.forgotPassword()
+        login.forgotEmail("nodejs@pontypriddholdings.com")
+        login.resetBtn()
+        msg = login.passwordResetEmail()
+        if msg != "An email with the reset link has been sent.":
+            self.logger.debug("**** Password reset link was not sent ****")
+            assert True
+        else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/unregisteredemailreset.png")
+            self.logger.debug("**** Password reset link was sent and user email is not registered ****")
             assert False
 
 
