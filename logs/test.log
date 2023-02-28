@@ -1,5 +1,2 @@
-2023-02-27 10:49:02,705 : DEBUG : loginPage : 52 : **** Forgot password link was clicked successfully ****
-2023-02-27 10:49:02,768 : DEBUG : loginPage : 62 : **** Email was entered successfully ****
-2023-02-27 10:49:02,812 : DEBUG : loginPage : 71 : **** Reset button was clicked successfully ****
-2023-02-27 10:49:02,820 : DEBUG : loginPage : 79 : **** Password reset alert message was found successfully ****
-2023-02-27 10:49:02,946 : DEBUG : test_login : 116 : **** Password reset link was sent and user email is not registered ****
+2023-02-28 16:43:22,276 : DEBUG : userPage : 101 : **** Save and Close button was clicked successfully ****
+2023-02-28 16:43:22,288 : DEBUG : test_users : 41 : **** User was added successfully ****

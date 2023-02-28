@@ -6,8 +6,8 @@ import pytest
 
 @pytest.fixture()
 def setup():
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    driver.maximize_window()
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option("debuggerAddress", "localhost:9898")
+    driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    #driver.maximize_window()
     return driver

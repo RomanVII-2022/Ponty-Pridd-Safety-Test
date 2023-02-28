@@ -1,39 +1,112 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
-import time
-
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
 
 class Users:
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option("detach", True)
-    driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-
-    # def __init__(self, driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)):
-    #     self.driver = driver
-
-    def login(self):
-        self.driver.get("https://dev.safety.pontypriddholdings.com/")
-        self.driver.maximize_window()
-        emailInput = self.driver.find_element(By.XPATH, "//input[@placeholder='example@example.com']")
-        emailInput.clear()
-        emailInput.send_keys("admin@pontypriddholdings.com")
-        passwordInput = self.driver.find_element(By.XPATH, "//input[@placeholder='Password']")
-        passwordInput.clear()
-        passwordInput.send_keys("123456")
-        loginBtn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Login']")
-        loginBtn.click()
-        time.sleep(5)
-
-    def adduser(self):
-        navuser = self.driver.find_element(By.XPATH, "//a[normalize-space()='Users']")
-        navuser.click()
-        addbtn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add']")
-        addbtn.click()
+    def __init__(self, driver, logger):
+        self.driver = driver
+        self.logger = logger
+        self.wait = WebDriverWait(driver=self.driver, timeout=10, poll_frequency=0.5, ignored_exceptions=None)
 
 
-users = Users()
-users.adduser()
+    def navusers(self):
+        try:
+            navUsers = self.driver.find_element(By.XPATH, "//a[normalize-space()='Users']")
+            navUsers.click()
+            self.logger.debug("**** Users button on the navigation bar was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Users on the navigation bar was not found ****")
+
+
+    def addUser(self):
+        try:
+            addbtn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add']")
+            addbtn.click()
+            self.logger.debug("**** User add button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. User add button was not found ****")
+
+    
+    def fullNames(self, name):
+        try:
+            nameInput = self.driver.find_element(By.XPATH, "//input[@placeholder='Names']")
+            nameInput.clear()
+            nameInput.send_keys(name)
+            self.logger.debug("**** Full Names were entered successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Full Names input field was not found ****")
+
+
+    def email(self, email):
+        try:
+            emailInput = self.driver.find_element(By.XPATH, "//input[@placeholder='Email Address']")
+            emailInput.clear()
+            emailInput.send_keys(email)
+            self.logger.debug("**** Email was entered successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Email could not be entered ****")
+
+    def phoneNumber(self, number):
+        try:
+            numberInput = self.driver.find_element(By.XPATH, "//input[@placeholder='1 (702) 123-4567']")
+            numberInput.clear()
+            numberInput.send_keys(number)
+            self.logger.debug("**** Phone number was entered successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Phone number was not entered. ****")
+
+    def jobTitle(self, title):
+        try:
+            jobInput = self.driver.find_element(By.XPATH, "//input[@placeholder='e.g hr']")
+            jobInput.clear()
+            jobInput.send_keys(title)
+            self.logger.debug("**** Job title was added successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Job title was not added ****")
+
+
+    def password(self, passwrd):
+        try:
+            passInput = self.driver.find_element(By.XPATH, "//input[@placeholder='password']")
+            passInput.clear()
+            passInput.send_keys(passwrd)
+            self.logger.debug("**** Password was entered sucessfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Password was not entered ****")
+
+    
+    def selectRole(self, name):
+        try:
+            role = Select(self.driver.find_element(By.XPATH, "//select[@name='role']"))
+            role.select_by_visible_text(name)
+            self.logger.debug("**** Role was selected successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Role was not selected ****")
+
+
+    def selectStatus(self, name):
+        try:
+            status = Select(self.driver.find_element(By.XPATH, "//select[@name='status']"))
+            status.select_by_visible_text(name)
+            self.logger.debug("**** Status was selected successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Status was not selected ****")
+
+
+    def saveBtn(self):
+        try:
+            btn = self.driver.find_element(By.XPATH, "//button[@id='close']")
+            btn.click()
+            self.logger.debug("**** Save and Close button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Save and Close button was not clicked ****")
+
+
+    def errorMessage(self):
+        try:
+            msg = self.driver.find_element(By.XPATH, "//div[@class='errmsg']")
+            return msg.text
+        except:
+            return "No error"
+
