@@ -1,2 +1,132 @@
-2023-02-28 16:43:22,276 : DEBUG : userPage : 101 : **** Save and Close button was clicked successfully ****
-2023-02-28 16:43:22,288 : DEBUG : test_users : 41 : **** User was added successfully ****
+2023-03-01 14:22:45,690 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-01 14:22:45,743 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-01 14:22:45,773 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-01 14:22:45,773 : DEBUG : test_users : 20 : **** Login was successful ****
+2023-03-01 14:22:46,729 : DEBUG : userPage : 17 : **** Users button on the navigation bar was clicked successfully ****
+2023-03-01 14:22:46,730 : DEBUG : test_users : 26 : **** Users landing page was accessed successfully ****
+2023-03-01 14:22:47,527 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:22:47,592 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:22:47,693 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:22:47,784 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:22:47,861 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:22:47,925 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:22:47,976 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:22:48,026 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:22:48,060 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:22:51,232 : DEBUG : test_users : 48 : **** Something went wrong. An error occurred while adding user ****
+2023-03-01 14:22:51,262 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:22:52,262 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:22:52,293 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:22:52,377 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:22:52,445 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:22:52,528 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:22:52,585 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:22:52,628 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:22:52,677 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:22:52,709 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:22:55,742 : DEBUG : test_users : 69 : **** Expected error message matched ****
+2023-03-01 14:22:55,782 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:22:56,710 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:22:56,762 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:22:56,828 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:22:56,893 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:22:56,964 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:22:57,025 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:22:57,128 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:22:57,176 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:22:57,218 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:00,249 : DEBUG : test_users : 95 : **** Expected error message matched ****
+2023-03-01 14:23:00,287 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:01,099 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:01,150 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:01,215 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:01,277 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:01,344 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:01,414 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:01,462 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:01,508 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:01,537 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:04,565 : DEBUG : test_users : 121 : **** Expected error message matched ****
+2023-03-01 14:23:04,606 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:05,391 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:05,437 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:05,515 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:05,593 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:05,665 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:05,733 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:05,785 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:05,836 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:05,867 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:08,898 : DEBUG : test_users : 146 : **** Expected error message matched ****
+2023-03-01 14:23:08,947 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:09,748 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:09,798 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:09,870 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:09,936 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:10,009 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:10,068 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:10,114 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:10,161 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:10,187 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:13,219 : DEBUG : test_users : 171 : **** Expected error message matched ****
+2023-03-01 14:23:13,244 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:14,182 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:14,252 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:14,332 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:14,401 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:14,467 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:14,531 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:14,577 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:14,685 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:14,711 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:17,742 : DEBUG : test_users : 196 : **** Expected error message matched ****
+2023-03-01 14:23:17,769 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:18,587 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:18,642 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:18,735 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:18,820 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:18,880 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:18,947 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:19,004 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:19,062 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:19,094 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:22,126 : DEBUG : test_users : 221 : **** Expected error message matched ****
+2023-03-01 14:23:22,160 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:23,119 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:23,178 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:23,272 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:23,361 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:23,426 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:23,481 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:23,528 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:23,575 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:23,607 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:26,634 : DEBUG : test_users : 246 : **** Expected error message matched ****
+2023-03-01 14:23:26,665 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:27,486 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:27,546 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:27,623 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:27,712 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:27,784 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:27,853 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:27,877 : DEBUG : userPage : 84 : **** Something went wrong. Role was not selected ****
+2023-03-01 14:23:27,928 : DEBUG : userPage : 91 : **** Status was selected successfully ****
+2023-03-01 14:23:27,966 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:30,991 : DEBUG : test_users : 271 : **** Expected error message matched ****
+2023-03-01 14:23:31,019 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:31,847 : DEBUG : userPage : 26 : **** User add button was clicked successfully ****
+2023-03-01 14:23:31,901 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:31,993 : DEBUG : userPage : 45 : **** Email was entered successfully ****
+2023-03-01 14:23:32,096 : DEBUG : userPage : 54 : **** Phone number was entered successfully ****
+2023-03-01 14:23:32,227 : DEBUG : userPage : 63 : **** Job title was added successfully ****
+2023-03-01 14:23:32,293 : DEBUG : userPage : 73 : **** Password was entered sucessfully ****
+2023-03-01 14:23:32,346 : DEBUG : userPage : 82 : **** Role was selected successfully ****
+2023-03-01 14:23:32,369 : DEBUG : userPage : 93 : **** Something went wrong. Status was not selected ****
+2023-03-01 14:23:32,401 : DEBUG : userPage : 100 : **** Save and Close button was clicked successfully ****
+2023-03-01 14:23:35,435 : DEBUG : test_users : 296 : **** Expected error message matched ****
+2023-03-01 14:23:35,478 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****
+2023-03-01 14:23:36,435 : DEBUG : userPage : 126 : **** Edit button was clicked successfully ****
+2023-03-01 14:23:36,493 : DEBUG : userPage : 35 : **** Full Names were entered successfully ****
+2023-03-01 14:23:36,535 : DEBUG : userPage : 135 : **** Save button was clicked successfully ****
+2023-03-01 14:23:39,565 : DEBUG : test_users : 315 : **** Expected error message matched ****
+2023-03-01 14:23:39,594 : DEBUG : userPage : 117 : **** Close button was clicked successfully ****

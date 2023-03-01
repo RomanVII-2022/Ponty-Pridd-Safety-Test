@@ -31,7 +31,6 @@ class Users:
     def fullNames(self, name):
         try:
             nameInput = self.driver.find_element(By.XPATH, "//input[@placeholder='Names']")
-            nameInput.clear()
             nameInput.send_keys(name)
             self.logger.debug("**** Full Names were entered successfully ****")
         except:
@@ -105,8 +104,46 @@ class Users:
 
     def errorMessage(self):
         try:
-            msg = self.driver.find_element(By.XPATH, "//div[@class='errmsg']")
-            return msg.text
+            msg = self.driver.find_element(By.XPATH, "//div[@class='errmsg']").text
+            return msg
         except:
             return "No error"
+
+
+    def closeBtn(self):
+        try:
+            btn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Close']")
+            btn.click()
+            self.logger.debug("**** Close button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Close button could not be found ****")
+
+
+    def editBtn(self):
+        try:
+            btn = self.driver.find_element(By.XPATH, "//tbody/tr[1]/td[9]/button")
+            btn.click()
+            self.logger.debug("**** Edit button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Edit button could not be found ****")
+
+
+    def editSaveBtn(self):
+        try:
+            save = self.driver.find_element(By.XPATH, "//button[normalize-space()='Save']")
+            save.click()
+            self.logger.debug("**** Save button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Save button was not found ****")
+
+
+    def confirmationMsg(self):
+        try:
+            confmsg = self.driver.find_element(By.XPATH, "//div[@class='confmsg']")
+            return confmsg.text
+        except:
+            self.logger.debug("**** Something went wrong. Confirmation message was not found ****")
+
+    
+            
 
