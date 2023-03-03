@@ -10,20 +10,20 @@ class Test_002_users:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
-    # def test_ponty_dashboard(self, setup):
-    #     self.driver = setup
-    #     self.driver.get(self.base_url)
-    #     login = Login(self.driver, self.logger)
-    #     login.enterEmail("admin@pontypriddholdings.com")
-    #     login.enterPassword("123456")
-    #     login.clickLogin()
-    #     self.logger.debug("**** Login was successful ****")
+    def test_ponty_dashboard(self, setup):
+        self.driver = setup
+        self.driver.get(self.base_url)
+        login = Login(self.driver, self.logger)
+        login.enterEmail("admin@pontypriddholdings.com")
+        login.enterPassword("123456")
+        login.clickLogin()
+        self.logger.debug("**** Login was successful ****")
 
-    # def test_users_landing_page(self, setup):
-    #     self.driver = setup
-    #     users = Users(self.driver, self.logger)
-    #     users.navusers()
-    #     self.logger.debug("**** Users landing page was accessed successfully ****")
+    def test_users_landing_page(self, setup):
+        self.driver = setup
+        users = Users(self.driver, self.logger)
+        users.navusers()
+        self.logger.debug("**** Users landing page was accessed successfully ****")
     
     def test_add_user(self, setup):
         self.driver = setup

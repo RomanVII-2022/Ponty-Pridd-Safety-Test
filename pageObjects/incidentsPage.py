@@ -130,3 +130,28 @@ class Incident:
         except:
             self.logger.debug("**** Something went wrong. Close button was not clicked ****")
 
+
+    def confirmMessage(self):
+        try:
+            confmsg = self.driver.find_element(By.XPATH, "//div[@class='confmsg']")
+            return confmsg.text
+        except:
+            return "No confirmation message"
+
+
+    def editBtn(self):
+        try:
+            btn = self.driver.find_element(By.XPATH, "//tbody/tr[1]/td[11]/button")
+            btn.click()
+            self.logger.debug("**** Edit button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Edit button could not be found ****")
+
+
+    def editSaveBtn(self):
+        try:
+            save = self.driver.find_element(By.XPATH, "//button[normalize-space()='Save']")
+            save.click()
+            self.logger.debug("**** Save button was clicked successfully ****")
+        except:
+            self.logger.debug("**** Something went wrong. Save button was not found ****")
