@@ -10,5 +10,5 @@ def setup():
     options.add_experimental_option("debuggerAddress", "localhost:9898")
     driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.maximize_window()
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(3)
     return driver

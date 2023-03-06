@@ -24,6 +24,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategoryadd.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             categories.closeBtn()
             assert False
@@ -41,6 +42,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategoryexisting.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             categories.closeBtn()
             assert False
@@ -50,7 +52,6 @@ class Test_003_users:
         self.driver = setup
         categories = IncidentCategories(self.driver, self.logger)
         categories.addIncidentCategory()
-        categories.categoryName("")
         categories.categoryDescription("Stealing Description")
         categories.saveBtn()
         errmsg = categories.errormsg()
@@ -60,6 +61,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategorynoname.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             categories.closeBtn()
             assert False
@@ -70,7 +72,6 @@ class Test_003_users:
         categories = IncidentCategories(self.driver, self.logger)
         categories.addIncidentCategory()
         categories.categoryName("Stealing")
-        categories.categoryDescription("")
         categories.saveBtn()
         errmsg = categories.errormsg()
         if errmsg == "Category Description cannot be Empty":
@@ -78,6 +79,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategorynodescription.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             categories.closeBtn()
             assert False
@@ -96,6 +98,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategoryedit.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             categories.closeBtn()
             assert False

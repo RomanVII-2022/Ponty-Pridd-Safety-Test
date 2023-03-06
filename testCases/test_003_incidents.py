@@ -25,6 +25,7 @@ class Test_003_users:
             assert True
             self.logger.debug("**** Incidents landing page was accessed successfully ****")
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentslandingpage.png")
             self.logger.debug("**** Something went wrong. Incidents landing page was not accessed ****")
             assert False
 
@@ -48,6 +49,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/addincident.png")
             self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
             incident.closeBtn()
             assert False
@@ -71,6 +73,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingvehicle.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -94,6 +97,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingdriver.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -117,6 +121,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingincident.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -140,6 +145,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingdescription.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -163,6 +169,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingaction.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -186,6 +193,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissinglocation.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -210,6 +218,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingviolation.png")
             self.logger.debug("**** Something went wrong. Confirmation message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -233,6 +242,7 @@ class Test_003_users:
             self.logger.debug("**** Error message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingdate.png")
             self.logger.debug("**** Something went wrong. Error message did not match with the expected error ****")
             incident.closeBtn()
             assert False
@@ -251,6 +261,7 @@ class Test_003_users:
             self.logger.debug("**** Confirmation message matched the expected message ****")
             incident.closeBtn()
         else:
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentedit.png")
             self.logger.debug("**** Something went wrong. Confirmation message did not match with the expected error ****")
             incident.closeBtn()
             assert False

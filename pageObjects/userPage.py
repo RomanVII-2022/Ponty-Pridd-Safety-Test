@@ -1,13 +1,10 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
 class Users:
     def __init__(self, driver, logger):
         self.driver = driver
         self.logger = logger
-        self.wait = WebDriverWait(driver=self.driver, timeout=10, poll_frequency=0.5, ignored_exceptions=None)
 
 
     def navusers(self):
