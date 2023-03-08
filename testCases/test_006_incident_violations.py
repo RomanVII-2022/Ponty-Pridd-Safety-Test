@@ -16,7 +16,7 @@ class Test_003_users:
         violations.violationName("Violation")
         violations.violationDescription("Violation Description")
         violations.proposedAction("Exile")
-        violations.saveBtn
+        violations.saveBtn()
         confmsg = violations.confirmMessage()
         if confmsg == "Violation Added Succesfully":
             assert True
@@ -36,7 +36,7 @@ class Test_003_users:
         violations.violationName("Violation")
         violations.violationDescription("Violation Description")
         violations.proposedAction("Exile")
-        violations.saveBtn
+        violations.saveBtn()
         errmsg = violations.errormsg()
         if errmsg == "Request failed with status code 400":
             assert True
@@ -55,7 +55,7 @@ class Test_003_users:
         violations.addViolation()
         violations.violationDescription("Violation Description")
         violations.proposedAction("Exile")
-        violations.saveBtn
+        violations.saveBtn()
         errmsg = violations.errormsg()
         if errmsg == "Name cannot be Empty":
             assert True
@@ -74,7 +74,7 @@ class Test_003_users:
         violations.addViolation()
         violations.violationName("Violation")
         violations.proposedAction("Exile")
-        violations.saveBtn
+        violations.saveBtn()
         errmsg = violations.errormsg()
         if errmsg == "Description cannot be Empty":
             assert True
@@ -93,7 +93,7 @@ class Test_003_users:
         violations.addViolation()
         violations.violationName("Violation")
         violations.violationDescription("Violation Description")
-        violations.saveBtn
+        violations.saveBtn()
         errmsg = violations.errormsg()
         if errmsg == "Action cannot be Empty":
             assert True
@@ -110,7 +110,7 @@ class Test_003_users:
         self.driver = setup
         violations = IncidentTypes(self.driver, self.logger)
         violations.editBtn()
-        violations.saveBtn
+        violations.saveBtn()
         confmsg = violations.confirmMessage()
         if confmsg == "Violation Edited Succesfully":
             assert True

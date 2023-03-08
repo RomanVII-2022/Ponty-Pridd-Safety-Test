@@ -52,7 +52,7 @@ class IncidentTypes:
         try:
             actionInput = self.driver.find_element(By.XPATH, "//input[@name='action']")
             actionInput.clear()
-            action.send_keys(action)
+            actionInput.send_keys(action)
             self.logger.debug("**** Proposed action was entered successfully ****")
         except:
             self.logger.debug("**** Something went wrong. Proposed action was not entered ****")
@@ -94,7 +94,7 @@ class IncidentTypes:
 
     def editBtn(self):
         try:
-            btn = self.driver.find_element(By.XPATH, "//tbody/tr[1]/td[5]/button[1]")
+            btn = self.driver.find_element(By.XPATH, "//body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[5]/button[1]")
             btn.click()
             self.logger.debug("**** Edit button was clicked successfully ****")
         except:

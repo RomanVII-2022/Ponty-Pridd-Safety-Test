@@ -1,31 +1,17 @@
-2023-03-07 15:01:16,361 : DEBUG : incidentViolationsPage : 17 : **** Violations tab was clicked successfully ****
-2023-03-07 15:01:16,422 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-07 15:01:16,514 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-07 15:01:16,603 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-07 15:01:16,637 : DEBUG : incidentViolationsPage : 58 : **** Something went wrong. Proposed action was not entered ****
-2023-03-07 15:01:19,773 : DEBUG : test_006_incident_violations : 27 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-07 15:01:19,803 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-07 15:01:20,759 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-07 15:01:20,822 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-07 15:01:20,891 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-07 15:01:20,929 : DEBUG : incidentViolationsPage : 58 : **** Something went wrong. Proposed action was not entered ****
-2023-03-07 15:01:24,056 : DEBUG : test_006_incident_violations : 47 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-07 15:01:24,079 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-07 15:01:25,011 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-07 15:01:25,087 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-07 15:01:25,116 : DEBUG : incidentViolationsPage : 58 : **** Something went wrong. Proposed action was not entered ****
-2023-03-07 15:01:28,295 : DEBUG : test_006_incident_violations : 66 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-07 15:01:28,318 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-07 15:01:29,283 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-07 15:01:29,345 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-07 15:01:29,373 : DEBUG : incidentViolationsPage : 58 : **** Something went wrong. Proposed action was not entered ****
-2023-03-07 15:01:32,529 : DEBUG : test_006_incident_violations : 85 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-07 15:01:32,552 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-07 15:01:33,495 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-07 15:01:33,562 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-07 15:01:33,638 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-07 15:01:36,771 : DEBUG : test_006_incident_violations : 104 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-07 15:01:36,794 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-07 15:01:40,750 : DEBUG : incidentViolationsPage : 101 : **** Something went wrong. Edit button could not be found ****
-2023-03-07 15:01:43,902 : DEBUG : test_006_incident_violations : 121 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-07 15:01:46,958 : DEBUG : incidentViolationsPage : 76 : **** Something went wrong. Close button was not clicked ****
+2023-03-08 16:55:08,849 : DEBUG : auditsPage : 17 : **** Audit button on the navigation bar was clicked ****
+2023-03-08 16:55:08,905 : DEBUG : auditsPage : 26 : **** Add button was clicked successfully ****
+2023-03-08 16:55:08,987 : DEBUG : auditsPage : 36 : **** Audit name was entered successfully ****
+2023-03-08 16:55:09,069 : DEBUG : auditsPage : 46 : **** Audit description was entered successfully ****
+2023-03-08 16:55:09,395 : DEBUG : auditsPage : 55 : **** Audit type was selected successfully ****
+2023-03-08 16:55:09,445 : DEBUG : auditsPage : 64 : **** Organization requesting audit was selected successfully ****
+2023-03-08 16:55:09,490 : DEBUG : auditsPage : 73 : **** Audit Measure was selected successfully ****
+2023-03-08 16:55:09,535 : DEBUG : auditsPage : 82 : **** Audit Category was selected successfully ****
+2023-03-08 16:55:09,593 : DEBUG : auditsPage : 92 : **** Raised by was entered successfully ****
+2023-03-08 16:55:09,657 : DEBUG : auditsPage : 102 : **** Date raised was entered successfully ****
+2023-03-08 16:55:09,721 : DEBUG : auditsPage : 112 : **** Date due was entered successfully ****
+2023-03-08 16:55:09,776 : DEBUG : auditsPage : 122 : **** Assigned to was entered successfully ****
+2023-03-08 16:55:09,822 : DEBUG : auditsPage : 131 : **** Audit Status was selected successfully ****
+2023-03-08 16:55:09,873 : DEBUG : auditsPage : 141 : **** Audit note was entered successfully ****
+2023-03-08 16:55:09,903 : DEBUG : auditsPage : 150 : **** Save and Close button was clicked successfully ****
+2023-03-08 16:55:10,275 : DEBUG : test_007_audits : 32 : **** Confirmation message matched the expected confirmation message ****
+2023-03-08 16:55:10,321 : DEBUG : auditsPage : 159 : **** Close button was clicked successfully ****
