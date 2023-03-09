@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-
+from selenium.webdriver import ActionChains
+import time
 
 class Audit:
 
@@ -188,8 +189,12 @@ class Audit:
 
     def editSaveBtn(self):
         try:
-            save = self.driver.find_element(By.XPATH, "//input[@value='update']")
-            save.click()
+            savebtn = self.driver.find_element(By.XPATH, "//input[@value='update']")
+            action = ActionChains(self.driver)
+            time.sleep(3)
+            action.move_to_element(savebtn)
+            action.click(savebtn)
+            action.perform()
             self.logger.debug("**** Update button was clicked successfully ****")
         except:
             self.logger.debug("**** Something went wrong. Update button was not clicked ****")

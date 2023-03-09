@@ -1,17 +1,7 @@
-2023-03-08 16:55:08,849 : DEBUG : auditsPage : 17 : **** Audit button on the navigation bar was clicked ****
-2023-03-08 16:55:08,905 : DEBUG : auditsPage : 26 : **** Add button was clicked successfully ****
-2023-03-08 16:55:08,987 : DEBUG : auditsPage : 36 : **** Audit name was entered successfully ****
-2023-03-08 16:55:09,069 : DEBUG : auditsPage : 46 : **** Audit description was entered successfully ****
-2023-03-08 16:55:09,395 : DEBUG : auditsPage : 55 : **** Audit type was selected successfully ****
-2023-03-08 16:55:09,445 : DEBUG : auditsPage : 64 : **** Organization requesting audit was selected successfully ****
-2023-03-08 16:55:09,490 : DEBUG : auditsPage : 73 : **** Audit Measure was selected successfully ****
-2023-03-08 16:55:09,535 : DEBUG : auditsPage : 82 : **** Audit Category was selected successfully ****
-2023-03-08 16:55:09,593 : DEBUG : auditsPage : 92 : **** Raised by was entered successfully ****
-2023-03-08 16:55:09,657 : DEBUG : auditsPage : 102 : **** Date raised was entered successfully ****
-2023-03-08 16:55:09,721 : DEBUG : auditsPage : 112 : **** Date due was entered successfully ****
-2023-03-08 16:55:09,776 : DEBUG : auditsPage : 122 : **** Assigned to was entered successfully ****
-2023-03-08 16:55:09,822 : DEBUG : auditsPage : 131 : **** Audit Status was selected successfully ****
-2023-03-08 16:55:09,873 : DEBUG : auditsPage : 141 : **** Audit note was entered successfully ****
-2023-03-08 16:55:09,903 : DEBUG : auditsPage : 150 : **** Save and Close button was clicked successfully ****
-2023-03-08 16:55:10,275 : DEBUG : test_007_audits : 32 : **** Confirmation message matched the expected confirmation message ****
-2023-03-08 16:55:10,321 : DEBUG : auditsPage : 159 : **** Close button was clicked successfully ****
+2023-03-09 17:12:51,058 : DEBUG : auditMeasurePage : 15 : **** Measure tab was clicked successfully ****
+2023-03-09 17:12:51,078 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
+2023-03-09 17:12:51,143 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
+2023-03-09 17:12:51,206 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
+2023-03-09 17:12:54,799 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
+2023-03-09 17:12:57,921 : DEBUG : test_009_audit_measure : 27 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-09 17:12:57,946 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
