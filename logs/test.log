@@ -1,27 +1,27 @@
-2023-03-13 13:40:07,897 : DEBUG : auditTypesPage : 16 : **** Types tab button was clicked successfully ****
-2023-03-13 13:40:07,919 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-13 13:40:07,985 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-13 13:40:08,052 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-13 13:40:08,627 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-13 13:40:11,746 : DEBUG : test_011_audit_types : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-13 13:40:11,777 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-13 13:40:12,803 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-13 13:40:12,873 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-13 13:40:12,935 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-13 13:40:13,516 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-13 13:40:13,767 : DEBUG : test_011_audit_types : 41 : **** Error message matched the expected error message ****
-2023-03-13 13:40:13,811 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-13 13:40:14,616 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-13 13:40:14,679 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-13 13:40:15,254 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-13 13:40:15,270 : DEBUG : test_011_audit_types : 60 : **** Error message matched the expected error message ****
-2023-03-13 13:40:15,299 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-13 13:40:16,245 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-13 13:40:16,311 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-13 13:40:16,894 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-13 13:40:16,906 : DEBUG : test_011_audit_types : 79 : **** Error message matched the expected error message ****
-2023-03-13 13:40:16,930 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-13 13:40:17,906 : DEBUG : auditTypesPage : 82 : **** Edit button was clicked successfully ****
-2023-03-13 13:40:18,494 : DEBUG : auditTypesPage : 104 : **** Edit measure button was clicked successfully ****
-2023-03-13 13:40:19,110 : DEBUG : test_011_audit_types : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-13 13:40:19,132 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-15 10:33:11,398 : DEBUG : auditStatusPage : 16 : **** Status tab was clicked successfully ****
+2023-03-15 10:33:11,443 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-15 10:33:11,514 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-15 10:33:11,578 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-15 10:33:12,144 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-15 10:33:15,338 : DEBUG : test_012_audit_status : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-15 10:33:15,365 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-15 10:33:16,325 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-15 10:33:16,380 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-15 10:33:16,434 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-15 10:33:17,003 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-15 10:33:17,257 : DEBUG : test_012_audit_status : 41 : **** Error message matched the expected error message ****
+2023-03-15 10:33:17,293 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-15 10:33:18,230 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-15 10:33:18,301 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-15 10:33:18,868 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-15 10:33:18,885 : DEBUG : test_012_audit_status : 60 : **** Error message matched the expected error message ****
+2023-03-15 10:33:18,917 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-15 10:33:19,867 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-15 10:33:19,925 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-15 10:33:20,502 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-15 10:33:20,517 : DEBUG : test_012_audit_status : 79 : **** Error message matched the expected error message ****
+2023-03-15 10:33:20,545 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-15 10:33:21,488 : DEBUG : auditStatusPage : 83 : **** Edit button was clicked successfully ****
+2023-03-15 10:33:22,088 : DEBUG : auditStatusPage : 105 : **** Edit status button was clicked successfully ****
+2023-03-15 10:33:22,683 : DEBUG : test_012_audit_status : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-15 10:33:22,706 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
