@@ -4,7 +4,7 @@ from pageObjects.incidentTypesPage import IncidentTypes
 import time
 
 
-class Test_003_users:
+class Test_005_Incident_Type:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
@@ -13,13 +13,12 @@ class Test_003_users:
         types = IncidentTypes(self.driver, self.logger)
         types.typesTab()
         types.addIncidentType()
-        types.selectCategory("Security")
-        types.typeName("Security Issue")
-        types.typeDescription("Security Issues")
+        types.selectCategory("Non-Compliance")
+        types.typeName("Route Breach")
+        types.typeDescription("Route breach")
         types.saveBtn()
         confmsg = types.confirmMessage()
-        errmsg = types.errormsg()
-        if confmsg == "Incident Type Added Successfully" or errmsg == "Incident type already exists":
+        if confmsg == "Incident Type Added Successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected message ****")
             types.closeBtn()

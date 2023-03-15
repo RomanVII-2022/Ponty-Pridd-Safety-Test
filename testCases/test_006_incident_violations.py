@@ -4,7 +4,7 @@ from pageObjects.incidentViolationsPage import IncidentTypes
 import time
 
 
-class Test_003_users:
+class Test_006_Incident_Violations:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
@@ -13,9 +13,9 @@ class Test_003_users:
         violations = IncidentTypes(self.driver, self.logger)
         violations.tabVilotation()
         violations.addViolation()
-        violations.violationName("Violation")
-        violations.violationDescription("Violation Description")
-        violations.proposedAction("Exile")
+        violations.violationName("Over Speeding Update")
+        violations.violationDescription("Over 100km/hr")
+        violations.proposedAction("Suspend")
         violations.saveBtn()
         confmsg = violations.confirmMessage()
         if confmsg == "Violation Added Succesfully":

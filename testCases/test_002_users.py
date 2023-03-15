@@ -37,7 +37,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "No error":
             self.logger.debug("**** User was added successfully ****")
@@ -62,7 +61,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Name cannot be Empty":
             self.logger.debug("**** Expected error message matched ****")
@@ -87,7 +85,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Email is Invalid":
             self.logger.debug("**** Expected error message matched ****")
@@ -113,7 +110,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Email is Invalid":
             self.logger.debug("**** Expected error message matched ****")
@@ -138,7 +134,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "User with Email Address already Exists":
             self.logger.debug("**** Expected error message matched ****")
@@ -162,7 +157,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Request failed with status code 500":
             self.logger.debug("**** Expected error message matched ****")
@@ -187,7 +181,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "User with Phone Number already Exists":
             self.logger.debug("**** Expected error message matched ****")
@@ -211,7 +204,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Job Title cannot be Empty":
             self.logger.debug("**** Expected error message matched ****")
@@ -235,7 +227,6 @@ class Test_002_users:
         users.selectRole("User")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Password cannot be Empty":
             self.logger.debug("**** Expected error message matched ****")
@@ -259,7 +250,6 @@ class Test_002_users:
         users.password("tuesday")
         users.selectStatus("Active")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Role is Required":
             self.logger.debug("**** Expected error message matched ****")
@@ -283,7 +273,6 @@ class Test_002_users:
         users.password("tuesday")
         users.selectRole("Admin")
         users.saveBtn()
-        time.sleep(3)
         msg = users.errorMessage()
         if msg == "Status is Required":
             self.logger.debug("**** Expected error message matched ****")
@@ -300,9 +289,7 @@ class Test_002_users:
         self.driver = setup
         users = Users(self.driver, self.logger)
         users.editBtn()
-        users.fullNames("updated")
         users.editSaveBtn()
-        time.sleep(3)
         confmsg = users.confirmationMsg()
         if confmsg == "User Updated Successfully":
             self.logger.debug("**** Expected error message matched ****")

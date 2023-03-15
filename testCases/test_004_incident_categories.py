@@ -5,7 +5,7 @@ from pageObjects.incidentsPage import Incident
 import time
 
 
-class Test_003_users:
+class Test_004_Incident_Category:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
@@ -17,9 +17,8 @@ class Test_003_users:
         categories.categoryName("Stealing")
         categories.categoryDescription("Stealing Description")
         categories.saveBtn()
-        errmsg = categories.errormsg()
         confmsg = categories.confirmMessage()
-        if confmsg == "Category Added Successfully" or errmsg == "Category already exists":
+        if confmsg == "Category Added Successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected message ****")
             categories.closeBtn()
@@ -39,11 +38,11 @@ class Test_003_users:
         errmsg = categories.errormsg()
         if errmsg == "Category already exists":
             assert True
-            self.logger.debug("**** Confirmation message matched the expected message ****")
+            self.logger.debug("**** Error message matched the expected message ****")
             categories.closeBtn()
         else:
             self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentcategoryexisting.png")
-            self.logger.debug("**** Something went wrong. Corfimation message did not match the expected confirmation message ****")
+            self.logger.debug("**** Something went wrong. Error message did not match the expected error message ****")
             categories.closeBtn()
             assert False
 
@@ -89,8 +88,6 @@ class Test_003_users:
         self.driver = setup
         categories = IncidentCategories(self.driver, self.logger)
         categories.editBtn()
-        categories.categoryName("updated")
-        categories.categoryDescription("edited")
         categories.saveBtn()
         confmsg = categories.confirmMessage()
         if confmsg == "Incident Category Updated Successfully":

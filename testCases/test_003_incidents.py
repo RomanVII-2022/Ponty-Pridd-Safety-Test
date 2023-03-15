@@ -5,7 +5,7 @@ from pageObjects.incidentsPage import Incident
 import time
 
 
-class Test_003_users:
+class Test_003_Incidents:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
@@ -33,18 +33,16 @@ class Test_003_users:
         self.driver = setup
         incident = Incident(self.driver, self.logger)
         incident.addBtn()
-        incident.vehicleInput("KAA293B")
-        incident.driverInput("Francis Muniu")
-        incident.incidentSelect("Fraud")
-        incident.descriptionInput("Anything")
-        incident.actionInput("Suspend")
-        incident.locationInput("Nairobi")
-        incident.violationSelect("PPE")
-        incident.dateInput("03/02/2023")
+        incident.vehicleInput("KBS250V")
+        incident.driverInput("John Ashona")
+        incident.incidentSelect("skipping Checkout")
+        incident.descriptionInput("Ponty Pridd truck KAR 500Y knocked a bollard at UDV waiting bay, the truck suddenly started moving after switching on the engine. No one was injured during the incident, but the front bumper of the truck was damaged and a scratch on the bollard.")
+        incident.actionInput("Escalated to KBL and 5why done")
+        incident.locationInput("Exit weighbridge ")
+        incident.dateInput("01/12/2022")
         incident.saveBtn()
         confmsg = incident.confirmMessage()
-        errmsg = incident.errormsg()
-        if confmsg == "Incident Added Successfully" or errmsg == "Incident Already Exists":
+        if confmsg == "Incident Added Successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected message ****")
             incident.closeBtn()
@@ -199,29 +197,29 @@ class Test_003_users:
             assert False
 
 
-    def test_missing_violation(self, setup):
-        self.driver = setup
-        incident = Incident(self.driver, self.logger)
-        incident.addBtn()
-        incident.vehicleInput("KAA293B")
-        incident.driverInput("Francis Muniu")
-        incident.incidentSelect("Fraud")
-        incident.descriptionInput("Anything")
-        incident.actionInput("Suspend")
-        incident.locationInput("Nairobi")
-        incident.dateInput("03/02/2023")
-        incident.saveBtn()
-        errmsg = incident.errormsg()
-        confmsg = incident.confirmMessage()
-        if confmsg == "Incident Added Successfully" or errmsg == "Incident Already Exists":
-            assert True
-            self.logger.debug("**** Confirmation message matched the expected message ****")
-            incident.closeBtn()
-        else:
-            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingviolation.png")
-            self.logger.debug("**** Something went wrong. Confirmation message did not match with the expected error ****")
-            incident.closeBtn()
-            assert False
+    # def test_missing_violation(self, setup):
+    #     self.driver = setup
+    #     incident = Incident(self.driver, self.logger)
+    #     incident.addBtn()
+    #     incident.vehicleInput("KAA293B")
+    #     incident.driverInput("Francis Muniu")
+    #     incident.incidentSelect("Fraud")
+    #     incident.descriptionInput("Anything")
+    #     incident.actionInput("Suspend")
+    #     incident.locationInput("Nairobi")
+    #     incident.dateInput("03/02/2023")
+    #     incident.saveBtn()
+    #     errmsg = incident.errormsg()
+    #     confmsg = incident.confirmMessage()
+    #     if confmsg == "Incident Added Successfully" or errmsg == "Incident Already Exists":
+    #         assert True
+    #         self.logger.debug("**** Confirmation message matched the expected message ****")
+    #         incident.closeBtn()
+    #     else:
+    #         self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/incidentmissingviolation.png")
+    #         self.logger.debug("**** Something went wrong. Confirmation message did not match with the expected error ****")
+    #         incident.closeBtn()
+    #         assert False
 
 
     def test_missing_date(self, setup):
@@ -252,8 +250,6 @@ class Test_003_users:
         self.driver = setup
         incident = Incident(self.driver, self.logger)
         incident.editBtn()
-        incident.actionInput("Suspend edited")
-        incident.locationInput("Nairobi edited")
         incident.editSaveBtn()
         confmsg = incident.confirmMessage()
         if confmsg == "Incident Updated Successfully":

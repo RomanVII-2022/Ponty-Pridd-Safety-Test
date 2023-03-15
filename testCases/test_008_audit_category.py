@@ -4,7 +4,7 @@ from pageObjects.auditCategoryPage import AuditCategory
 import time
 
 
-class Test_003_users:
+class Test_008_Audit_Category:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
