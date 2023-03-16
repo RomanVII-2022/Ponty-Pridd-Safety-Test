@@ -15,7 +15,6 @@ class Test_009_AuditMeasure:
         measure.addBtn()
         measure.measureName("Measure")
         measure.measureDescription("Description")
-        time.sleep(3)
         measure.addMeasure()
         conf = measure.confirmMessage()
         if conf == "Measure added successfully":
@@ -35,7 +34,6 @@ class Test_009_AuditMeasure:
         measure.addBtn()
         measure.measureName("Measure")
         measure.measureDescription("Description")
-        time.sleep(3)
         measure.addMeasure()
         err = measure.errormsg()
         if err == "Measure already exists":
@@ -55,7 +53,6 @@ class Test_009_AuditMeasure:
         measure.addBtn()
         #measure.measureName("Measure")
         measure.measureDescription("Description")
-        time.sleep(3)
         measure.addMeasure()
         err = measure.errormsg()
         if err == "Name is required":
@@ -75,7 +72,6 @@ class Test_009_AuditMeasure:
         measure.addBtn()
         measure.measureName("Measure")
         #measure.measureDescription("Description")
-        time.sleep(3)
         measure.addMeasure()
         err = measure.errormsg()
         if err == "Description is required":
@@ -93,7 +89,6 @@ class Test_009_AuditMeasure:
         self.driver = setup
         measure = AuditMeasure(self.driver, self.logger)
         measure.editBtn()
-        time.sleep(3)
         measure.editMeasure()
         conf = measure.confirmMessage()
         if conf == "Measure edited successfully":

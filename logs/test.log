@@ -1,518 +1,518 @@
-2023-03-15 11:50:13,833 : DEBUG : test_001_login : 13 : **** Website accessed successfully ****
-2023-03-15 11:50:13,845 : DEBUG : test_001_login : 16 : **** Website title matches ****
-2023-03-15 11:50:16,119 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
-2023-03-15 11:50:16,178 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
-2023-03-15 11:50:16,220 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
-2023-03-15 11:50:19,232 : DEBUG : test_001_login : 33 : **** Login was successfull ****
-2023-03-15 11:50:20,144 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
-2023-03-15 11:50:20,197 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
-2023-03-15 11:50:20,232 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
-2023-03-15 11:50:20,507 : DEBUG : loginPage : 43 : **** Message was found successfully ****
-2023-03-15 11:50:21,749 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
-2023-03-15 11:50:21,803 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
-2023-03-15 11:50:21,833 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
-2023-03-15 11:50:22,403 : DEBUG : loginPage : 43 : **** Message was found successfully ****
-2023-03-15 11:50:23,666 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
-2023-03-15 11:50:23,717 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
-2023-03-15 11:50:23,749 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
-2023-03-15 11:50:24,266 : DEBUG : loginPage : 43 : **** Message was found successfully ****
-2023-03-15 11:50:25,403 : DEBUG : loginPage : 52 : **** Forgot password link was clicked successfully ****
-2023-03-15 11:50:25,471 : DEBUG : loginPage : 62 : **** Email was entered successfully ****
-2023-03-15 11:50:25,513 : DEBUG : loginPage : 71 : **** Reset button was clicked successfully ****
-2023-03-15 11:50:25,521 : DEBUG : loginPage : 79 : **** Password reset alert message was found successfully ****
-2023-03-15 11:50:25,530 : DEBUG : test_001_login : 95 : **** The two alert messages matched ****
-2023-03-15 11:50:26,383 : DEBUG : loginPage : 52 : **** Forgot password link was clicked successfully ****
-2023-03-15 11:50:26,462 : DEBUG : loginPage : 62 : **** Email was entered successfully ****
-2023-03-15 11:50:26,515 : DEBUG : loginPage : 71 : **** Reset button was clicked successfully ****
-2023-03-15 11:50:26,533 : DEBUG : loginPage : 79 : **** Password reset alert message was found successfully ****
-2023-03-15 11:50:26,705 : DEBUG : test_001_login : 116 : **** Password reset link was sent and user email is not registered ****
-2023-03-15 11:50:27,734 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
-2023-03-15 11:50:27,790 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
-2023-03-15 11:50:27,822 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
-2023-03-15 11:50:27,823 : DEBUG : test_002_users : 20 : **** Login was successful ****
-2023-03-15 11:50:28,774 : DEBUG : userPage : 14 : **** Users button on the navigation bar was clicked successfully ****
-2023-03-15 11:50:28,775 : DEBUG : test_002_users : 26 : **** Users landing page was accessed successfully ****
-2023-03-15 11:50:29,578 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:29,644 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:29,739 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:29,837 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:29,926 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:29,993 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:30,041 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:30,113 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:30,140 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:30,815 : DEBUG : test_002_users : 47 : **** Something went wrong. An error occurred while adding user ****
-2023-03-15 11:50:30,841 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:31,720 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:31,812 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:31,890 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:31,956 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:32,015 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:32,068 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:32,119 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:32,147 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:32,166 : DEBUG : test_002_users : 66 : **** Expected error message matched ****
-2023-03-15 11:50:32,197 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:33,148 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:33,196 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:33,261 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:33,329 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:33,389 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:33,459 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:33,507 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:33,538 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:33,555 : DEBUG : test_002_users : 90 : **** Expected error message matched ****
-2023-03-15 11:50:33,584 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:34,516 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:34,564 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:34,637 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:34,715 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:34,790 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:34,865 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:34,915 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:34,963 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:34,995 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:35,012 : DEBUG : test_002_users : 115 : **** Expected error message matched ****
-2023-03-15 11:50:35,044 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:35,847 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:35,904 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:35,989 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:36,072 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:36,148 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:36,226 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:36,273 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:36,322 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:36,349 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:36,884 : DEBUG : test_002_users : 139 : **** Expected error message matched ****
-2023-03-15 11:50:36,931 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:37,750 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:37,805 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:37,883 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:37,972 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:38,045 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:38,101 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:38,150 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:38,187 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:41,385 : DEBUG : test_002_users : 167 : **** Something went wrong. Expected error did not match ****
-2023-03-15 11:50:41,410 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:42,232 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:42,315 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:42,396 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:42,470 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:42,549 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:42,619 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:42,672 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:42,719 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:42,751 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:43,283 : DEBUG : test_002_users : 186 : **** Expected error message matched ****
-2023-03-15 11:50:43,328 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:44,139 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:44,197 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:44,281 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:44,353 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:44,413 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:44,465 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:44,514 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:44,539 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:44,557 : DEBUG : test_002_users : 209 : **** Expected error message matched ****
-2023-03-15 11:50:44,591 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:45,424 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:45,470 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:45,540 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:45,609 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:45,681 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:45,736 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:45,785 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:45,814 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:45,829 : DEBUG : test_002_users : 232 : **** Expected error message matched ****
-2023-03-15 11:50:45,861 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:46,809 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:46,870 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:46,956 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:47,038 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:47,119 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:47,189 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:47,250 : DEBUG : userPage : 88 : **** Status was selected successfully ****
-2023-03-15 11:50:47,283 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:47,300 : DEBUG : test_002_users : 255 : **** Expected error message matched ****
-2023-03-15 11:50:47,335 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:48,292 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
-2023-03-15 11:50:48,349 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
-2023-03-15 11:50:48,434 : DEBUG : userPage : 42 : **** Email was entered successfully ****
-2023-03-15 11:50:48,516 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
-2023-03-15 11:50:48,586 : DEBUG : userPage : 60 : **** Job title was added successfully ****
-2023-03-15 11:50:48,656 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
-2023-03-15 11:50:48,707 : DEBUG : userPage : 79 : **** Role was selected successfully ****
-2023-03-15 11:50:48,740 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:48,755 : DEBUG : test_002_users : 278 : **** Expected error message matched ****
-2023-03-15 11:50:48,795 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:49,619 : DEBUG : userPage : 123 : **** Edit button was clicked successfully ****
-2023-03-15 11:50:49,659 : DEBUG : userPage : 132 : **** Save button was clicked successfully ****
-2023-03-15 11:50:50,202 : DEBUG : test_002_users : 295 : **** Expected error message matched ****
-2023-03-15 11:50:50,247 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
-2023-03-15 11:50:51,128 : DEBUG : incidentsPage : 17 : **** Incidents button on the navigation bar was clicked successfully ****
-2023-03-15 11:50:51,143 : DEBUG : test_003_incidents : 26 : **** Incidents landing page was accessed successfully ****
-2023-03-15 11:50:51,970 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:50:52,140 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:50:52,275 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:50:52,334 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:50:52,597 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:50:52,688 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:50:52,845 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:50:52,964 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:50:53,050 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:56,224 : DEBUG : test_003_incidents : 51 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-15 11:50:56,258 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:50:57,091 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:50:57,201 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:50:57,252 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:50:57,321 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:50:57,392 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:50:57,466 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:50:57,522 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:50:57,574 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:50:57,606 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:57,622 : DEBUG : test_003_incidents : 71 : **** Error message matched the expected message ****
-2023-03-15 11:50:57,658 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:50:58,480 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:50:58,640 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:50:58,690 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:50:58,752 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:50:58,829 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:50:58,892 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:50:58,947 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:50:58,992 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:50:59,022 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:50:59,038 : DEBUG : test_003_incidents : 95 : **** Error message matched the expected message ****
-2023-03-15 11:50:59,073 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:00,027 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:51:00,154 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:51:00,265 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:51:00,336 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:51:00,408 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:51:00,517 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:51:00,566 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:51:00,612 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:51:00,639 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:00,656 : DEBUG : test_003_incidents : 119 : **** Error message matched the expected message ****
-2023-03-15 11:51:00,690 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:01,619 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:51:01,734 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:51:01,841 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:51:01,889 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:51:01,961 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:51:02,025 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:51:02,082 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:51:02,129 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:51:02,159 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:02,179 : DEBUG : test_003_incidents : 143 : **** Error message matched the expected message ****
-2023-03-15 11:51:02,215 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:03,146 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:51:03,258 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:51:03,361 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:51:03,408 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:51:03,471 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:51:03,538 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:51:03,586 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:51:03,634 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:51:03,665 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:03,679 : DEBUG : test_003_incidents : 167 : **** Error message matched the expected message ****
-2023-03-15 11:51:03,714 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:04,673 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:51:04,821 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:51:04,920 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:51:04,974 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:51:05,039 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:51:05,109 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:51:05,159 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:51:05,206 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-15 11:51:05,238 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:05,257 : DEBUG : test_003_incidents : 191 : **** Error message matched the expected message ****
-2023-03-15 11:51:05,295 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:06,112 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-15 11:51:06,243 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-15 11:51:06,363 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-15 11:51:06,415 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-15 11:51:06,474 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-15 11:51:06,542 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-15 11:51:06,606 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-15 11:51:06,655 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-15 11:51:06,687 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:06,705 : DEBUG : test_003_incidents : 240 : **** Error message matched the expected message ****
-2023-03-15 11:51:06,744 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:07,591 : DEBUG : incidentsPage : 146 : **** Edit button was clicked successfully ****
-2023-03-15 11:51:07,631 : DEBUG : incidentsPage : 155 : **** Save button was clicked successfully ****
-2023-03-15 11:51:08,170 : DEBUG : test_003_incidents : 257 : **** Confirmation message matched the expected message ****
-2023-03-15 11:51:08,206 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-15 11:51:09,041 : DEBUG : incidentCategoriesPage : 17 : **** Manage button was clicked successfully ****
-2023-03-15 11:51:09,078 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
-2023-03-15 11:51:09,147 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
-2023-03-15 11:51:09,231 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
-2023-03-15 11:51:09,271 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
-2023-03-15 11:51:12,460 : DEBUG : test_004_incident_categories : 27 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-15 11:51:12,485 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
-2023-03-15 11:51:18,297 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
-2023-03-15 11:51:18,372 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
-2023-03-15 11:51:18,459 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
-2023-03-15 11:51:18,499 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
-2023-03-15 11:51:19,030 : DEBUG : test_004_incident_categories : 41 : **** Error message matched the expected message ****
-2023-03-15 11:51:19,073 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
-2023-03-15 11:51:19,886 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
-2023-03-15 11:51:19,970 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
-2023-03-15 11:51:20,004 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
-2023-03-15 11:51:20,439 : DEBUG : test_004_incident_categories : 64 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-15 11:51:20,482 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
-2023-03-15 11:51:21,326 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
-2023-03-15 11:51:21,405 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
-2023-03-15 11:51:21,440 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
-2023-03-15 11:51:21,869 : DEBUG : test_004_incident_categories : 82 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-15 11:51:21,893 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
-2023-03-15 11:51:22,727 : DEBUG : incidentCategoriesPage : 89 : **** Edit button was clicked successfully ****
-2023-03-15 11:51:22,759 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
-2023-03-15 11:51:23,295 : DEBUG : test_004_incident_categories : 95 : **** Confirmation message matched the expected message ****
-2023-03-15 11:51:23,337 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
-2023-03-15 11:51:24,156 : DEBUG : incidentTypesPage : 17 : **** Types tab was clicked successfully ****
-2023-03-15 11:51:24,203 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
-2023-03-15 11:51:24,272 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
-2023-03-15 11:51:24,363 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
-2023-03-15 11:51:24,434 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
-2023-03-15 11:51:24,460 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:27,660 : DEBUG : test_005_incident_types : 27 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-15 11:51:27,687 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:28,664 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
-2023-03-15 11:51:28,717 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
-2023-03-15 11:51:28,776 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
-2023-03-15 11:51:28,845 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
-2023-03-15 11:51:28,877 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:29,191 : DEBUG : test_005_incident_types : 42 : **** Error message matched the expected message ****
-2023-03-15 11:51:29,217 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:30,064 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
-2023-03-15 11:51:30,124 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
-2023-03-15 11:51:30,223 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
-2023-03-15 11:51:30,259 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:33,401 : DEBUG : test_005_incident_types : 65 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-15 11:51:33,425 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:34,251 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
-2023-03-15 11:51:34,306 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
-2023-03-15 11:51:34,360 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
-2023-03-15 11:51:34,391 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:34,408 : DEBUG : test_005_incident_types : 80 : **** Error message matched the expected message ****
-2023-03-15 11:51:34,441 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:35,246 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
-2023-03-15 11:51:35,273 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
-2023-03-15 11:51:35,328 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
-2023-03-15 11:51:35,364 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:35,823 : DEBUG : test_005_incident_types : 103 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-15 11:51:35,847 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:36,706 : DEBUG : incidentTypesPage : 96 : **** Edit button was clicked successfully ****
-2023-03-15 11:51:36,741 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:37,279 : DEBUG : test_005_incident_types : 116 : **** Confirmation message matched the expected message ****
-2023-03-15 11:51:37,317 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
-2023-03-15 11:51:38,276 : DEBUG : incidentViolationsPage : 17 : **** Violations tab was clicked successfully ****
-2023-03-15 11:51:38,314 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-15 11:51:38,390 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-15 11:51:38,468 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-15 11:51:38,537 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
-2023-03-15 11:51:38,606 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:41,740 : DEBUG : test_006_incident_violations : 27 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:51:41,768 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:42,574 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-15 11:51:42,633 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-15 11:51:42,704 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-15 11:51:42,766 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
-2023-03-15 11:51:42,802 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:43,109 : DEBUG : test_006_incident_violations : 43 : **** Error message matched the expected error message ****
-2023-03-15 11:51:43,139 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:44,083 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-15 11:51:44,162 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-15 11:51:44,222 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
-2023-03-15 11:51:44,266 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:44,907 : DEBUG : test_006_incident_violations : 66 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-15 11:51:44,930 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:45,905 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-15 11:51:45,974 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-15 11:51:46,038 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
-2023-03-15 11:51:46,072 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:46,496 : DEBUG : test_006_incident_violations : 85 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-15 11:51:46,521 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:47,338 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
-2023-03-15 11:51:47,408 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-03-15 11:51:47,485 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
-2023-03-15 11:51:47,519 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:47,955 : DEBUG : test_006_incident_violations : 104 : **** Something went wrong. Error message did not match the expected error message ****
-2023-03-15 11:51:48,000 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:48,823 : DEBUG : incidentViolationsPage : 99 : **** Edit button was clicked successfully ****
-2023-03-15 11:51:48,853 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-03-15 11:51:49,393 : DEBUG : test_006_incident_violations : 117 : **** Confirmation message matched the expected confirmation message ****
-2023-03-15 11:51:49,431 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
-2023-03-15 11:51:50,329 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
-2023-03-15 11:51:50,395 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
-2023-03-15 11:51:50,487 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
-2023-03-15 11:51:50,583 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
-2023-03-15 11:51:51,178 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
-2023-03-15 11:51:51,230 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
-2023-03-15 11:51:51,281 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
-2023-03-15 11:51:51,338 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
-2023-03-15 11:51:51,405 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
-2023-03-15 11:51:51,472 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
-2023-03-15 11:51:51,535 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
-2023-03-15 11:51:51,601 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
-2023-03-15 11:51:51,653 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
-2023-03-15 11:51:51,711 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
-2023-03-15 11:51:51,742 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:52,268 : DEBUG : test_007_audits : 32 : **** Confirmation message matched the expected confirmation message ****
-2023-03-15 11:51:52,301 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
-2023-03-15 11:51:53,217 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
-2023-03-15 11:51:53,273 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
-2023-03-15 11:51:53,340 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
-2023-03-15 11:51:54,075 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
-2023-03-15 11:51:54,156 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
-2023-03-15 11:51:54,203 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
-2023-03-15 11:51:54,250 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
-2023-03-15 11:51:54,312 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
-2023-03-15 11:51:54,372 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
-2023-03-15 11:51:54,430 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
-2023-03-15 11:51:54,487 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
-2023-03-15 11:51:54,535 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
-2023-03-15 11:51:54,590 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
-2023-03-15 11:51:54,621 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
-2023-03-15 11:51:54,636 : DEBUG : test_007_audits : 61 : **** Error message matched the expected error message ****
-2023-03-15 11:51:54,674 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
-2023-03-15 11:51:55,503 : DEBUG : auditCategoryPage : 17 : **** Manage button was clicked successfully ****
-2023-03-15 11:51:55,537 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
-2023-03-15 11:51:55,600 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
-2023-03-15 11:51:55,660 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
-2023-03-15 11:51:56,236 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
-2023-03-15 11:51:59,422 : DEBUG : test_008_audit_category : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:51:59,446 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
-2023-03-15 11:52:03,394 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
-2023-03-15 11:52:03,439 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
-2023-03-15 11:52:03,505 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
-2023-03-15 11:52:03,573 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
-2023-03-15 11:52:04,139 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
-2023-03-15 11:52:04,605 : DEBUG : test_008_audit_category : 42 : **** Error message matched the expected error message ****
-2023-03-15 11:52:04,629 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
-2023-03-15 11:52:08,467 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
-2023-03-15 11:52:08,510 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
-2023-03-15 11:52:08,570 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
-2023-03-15 11:52:09,141 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
-2023-03-15 11:52:09,154 : DEBUG : test_008_audit_category : 62 : **** Error message matched the expected error message ****
-2023-03-15 11:52:09,184 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
-2023-03-15 11:52:13,030 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
-2023-03-15 11:52:13,078 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
-2023-03-15 11:52:13,141 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
-2023-03-15 11:52:13,707 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
-2023-03-15 11:52:13,719 : DEBUG : test_008_audit_category : 82 : **** Error message matched the expected error message ****
-2023-03-15 11:52:13,747 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
-2023-03-15 11:52:14,688 : DEBUG : auditCategoryPage : 84 : **** Edit button was clicked successfully ****
-2023-03-15 11:52:15,276 : DEBUG : auditCategoryPage : 106 : **** Edit category button was clicked successfully ****
-2023-03-15 11:52:15,912 : DEBUG : test_008_audit_category : 103 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:15,936 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
-2023-03-15 11:52:16,898 : DEBUG : auditMeasurePage : 15 : **** Measure tab was clicked successfully ****
-2023-03-15 11:52:16,941 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
-2023-03-15 11:52:17,009 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
-2023-03-15 11:52:17,078 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
-2023-03-15 11:52:20,655 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
-2023-03-15 11:52:23,842 : DEBUG : test_009_audit_measure : 27 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:23,865 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
-2023-03-15 11:52:24,699 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
-2023-03-15 11:52:24,773 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
-2023-03-15 11:52:24,843 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
-2023-03-15 11:52:28,426 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
-2023-03-15 11:52:28,908 : DEBUG : test_009_audit_measure : 43 : **** Error message matched the expected error message ****
-2023-03-15 11:52:28,942 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
-2023-03-15 11:52:29,769 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
-2023-03-15 11:52:29,841 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
-2023-03-15 11:52:33,445 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
-2023-03-15 11:52:33,460 : DEBUG : test_009_audit_measure : 63 : **** Error message matched the expected error message ****
-2023-03-15 11:52:33,494 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
-2023-03-15 11:52:34,438 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
-2023-03-15 11:52:34,531 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
-2023-03-15 11:52:38,108 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
-2023-03-15 11:52:38,123 : DEBUG : test_009_audit_measure : 83 : **** Error message matched the expected error message ****
-2023-03-15 11:52:38,159 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
-2023-03-15 11:52:38,984 : DEBUG : auditMeasurePage : 81 : **** Edit button was clicked successfully ****
-2023-03-15 11:52:42,560 : DEBUG : auditMeasurePage : 103 : **** Edit measure button was clicked successfully ****
-2023-03-15 11:52:43,164 : DEBUG : test_009_audit_measure : 105 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:43,189 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
-2023-03-15 11:52:44,014 : DEBUG : auditOrganizationPage : 16 : **** Organization tab was clicked successfully ****
-2023-03-15 11:52:44,049 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:52:44,115 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
-2023-03-15 11:52:44,195 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
-2023-03-15 11:52:44,784 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
-2023-03-15 11:52:47,967 : DEBUG : test_010_audit_organization : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:47,991 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:52:48,799 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:52:48,854 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
-2023-03-15 11:52:48,906 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
-2023-03-15 11:52:49,490 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
-2023-03-15 11:52:49,744 : DEBUG : test_010_audit_organization : 41 : **** Error message matched the expected error message ****
-2023-03-15 11:52:49,788 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:52:50,595 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:52:50,655 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
-2023-03-15 11:52:51,218 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
-2023-03-15 11:52:51,229 : DEBUG : test_010_audit_organization : 60 : **** Error message matched the expected error message ****
-2023-03-15 11:52:51,258 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:52:52,071 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:52:52,133 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
-2023-03-15 11:52:52,717 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
-2023-03-15 11:52:52,728 : DEBUG : test_010_audit_organization : 79 : **** Error message matched the expected error message ****
-2023-03-15 11:52:52,760 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:52:53,595 : DEBUG : auditOrganizationPage : 82 : **** Edit button was clicked successfully ****
-2023-03-15 11:52:54,182 : DEBUG : auditOrganizationPage : 104 : **** Edit measure button was clicked successfully ****
-2023-03-15 11:52:54,812 : DEBUG : test_010_audit_organization : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:54,836 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:52:55,805 : DEBUG : auditTypesPage : 16 : **** Types tab button was clicked successfully ****
-2023-03-15 11:52:55,842 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:52:55,914 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-15 11:52:55,977 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-15 11:52:56,554 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-15 11:52:59,745 : DEBUG : test_011_audit_types : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:52:59,769 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:53:00,585 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:00,671 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-15 11:53:00,747 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-15 11:53:01,316 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-15 11:53:01,567 : DEBUG : test_011_audit_types : 41 : **** Error message matched the expected error message ****
-2023-03-15 11:53:01,589 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:53:02,532 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:02,600 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
-2023-03-15 11:53:03,185 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-15 11:53:03,199 : DEBUG : test_011_audit_types : 60 : **** Error message matched the expected error message ****
-2023-03-15 11:53:03,234 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:53:04,041 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:04,111 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
-2023-03-15 11:53:04,686 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
-2023-03-15 11:53:04,698 : DEBUG : test_011_audit_types : 79 : **** Error message matched the expected error message ****
-2023-03-15 11:53:04,732 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:53:05,572 : DEBUG : auditTypesPage : 82 : **** Edit button was clicked successfully ****
-2023-03-15 11:53:06,177 : DEBUG : auditTypesPage : 104 : **** Edit measure button was clicked successfully ****
-2023-03-15 11:53:06,782 : DEBUG : test_011_audit_types : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:53:06,811 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
-2023-03-15 11:53:07,763 : DEBUG : auditStatusPage : 16 : **** Status tab was clicked successfully ****
-2023-03-15 11:53:07,808 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:07,873 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
-2023-03-15 11:53:07,938 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
-2023-03-15 11:53:08,513 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
-2023-03-15 11:53:11,690 : DEBUG : test_012_audit_status : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:53:11,716 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
-2023-03-15 11:53:12,548 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:12,628 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
-2023-03-15 11:53:12,704 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
-2023-03-15 11:53:13,275 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
-2023-03-15 11:53:13,520 : DEBUG : test_012_audit_status : 41 : **** Error message matched the expected error message ****
-2023-03-15 11:53:13,544 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
-2023-03-15 11:53:14,351 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:14,413 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
-2023-03-15 11:53:14,995 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
-2023-03-15 11:53:15,008 : DEBUG : test_012_audit_status : 60 : **** Error message matched the expected error message ****
-2023-03-15 11:53:15,037 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
-2023-03-15 11:53:15,855 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
-2023-03-15 11:53:15,913 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
-2023-03-15 11:53:16,499 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
-2023-03-15 11:53:16,511 : DEBUG : test_012_audit_status : 79 : **** Error message matched the expected error message ****
-2023-03-15 11:53:16,543 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
-2023-03-15 11:53:17,366 : DEBUG : auditStatusPage : 83 : **** Edit button was clicked successfully ****
-2023-03-15 11:53:17,958 : DEBUG : auditStatusPage : 105 : **** Edit status button was clicked successfully ****
-2023-03-15 11:53:18,581 : DEBUG : test_012_audit_status : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
-2023-03-15 11:53:18,609 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-16 10:35:58,550 : DEBUG : test_001_login : 13 : **** Website accessed successfully ****
+2023-03-16 10:35:58,563 : DEBUG : test_001_login : 16 : **** Website title matches ****
+2023-03-16 10:35:59,857 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-16 10:35:59,918 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-16 10:35:59,951 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-16 10:36:02,962 : DEBUG : test_001_login : 33 : **** Login was successfull ****
+2023-03-16 10:36:04,017 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-16 10:36:04,076 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-16 10:36:04,113 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-16 10:36:04,388 : DEBUG : loginPage : 43 : **** Message was found successfully ****
+2023-03-16 10:36:05,649 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-16 10:36:05,702 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-16 10:36:05,735 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-16 10:36:06,533 : DEBUG : loginPage : 43 : **** Message was found successfully ****
+2023-03-16 10:36:07,860 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-16 10:36:07,915 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-16 10:36:07,947 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-16 10:36:08,235 : DEBUG : loginPage : 43 : **** Message was found successfully ****
+2023-03-16 10:36:09,477 : DEBUG : loginPage : 52 : **** Forgot password link was clicked successfully ****
+2023-03-16 10:36:09,551 : DEBUG : loginPage : 62 : **** Email was entered successfully ****
+2023-03-16 10:36:09,599 : DEBUG : loginPage : 71 : **** Reset button was clicked successfully ****
+2023-03-16 10:36:09,620 : DEBUG : loginPage : 79 : **** Password reset alert message was found successfully ****
+2023-03-16 10:36:09,633 : DEBUG : test_001_login : 95 : **** The two alert messages matched ****
+2023-03-16 10:36:10,503 : DEBUG : loginPage : 52 : **** Forgot password link was clicked successfully ****
+2023-03-16 10:36:10,599 : DEBUG : loginPage : 62 : **** Email was entered successfully ****
+2023-03-16 10:36:10,636 : DEBUG : loginPage : 71 : **** Reset button was clicked successfully ****
+2023-03-16 10:36:10,640 : DEBUG : loginPage : 79 : **** Password reset alert message was found successfully ****
+2023-03-16 10:36:10,892 : DEBUG : test_001_login : 116 : **** Password reset link was sent and user email is not registered ****
+2023-03-16 10:36:11,914 : DEBUG : loginPage : 17 : **** Email was entered successfully ****
+2023-03-16 10:36:11,972 : DEBUG : loginPage : 27 : **** Password was entered successfully ****
+2023-03-16 10:36:12,002 : DEBUG : loginPage : 36 : **** Login button was clicked successfully ****
+2023-03-16 10:36:12,002 : DEBUG : test_002_users : 20 : **** Login was successful ****
+2023-03-16 10:36:12,954 : DEBUG : userPage : 14 : **** Users button on the navigation bar was clicked successfully ****
+2023-03-16 10:36:12,954 : DEBUG : test_002_users : 26 : **** Users landing page was accessed successfully ****
+2023-03-16 10:36:13,743 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:13,800 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:13,899 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:13,987 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:14,069 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:14,143 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:14,200 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:14,254 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:14,289 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:14,967 : DEBUG : test_002_users : 47 : **** Something went wrong. An error occurred while adding user ****
+2023-03-16 10:36:14,994 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:16,001 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:16,102 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:16,184 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:16,269 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:16,341 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:16,399 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:16,452 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:16,486 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:16,502 : DEBUG : test_002_users : 66 : **** Expected error message matched ****
+2023-03-16 10:36:16,553 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:17,380 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:17,437 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:17,514 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:17,591 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:17,662 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:17,720 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:17,773 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:17,806 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:17,829 : DEBUG : test_002_users : 90 : **** Expected error message matched ****
+2023-03-16 10:36:17,868 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:18,672 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:18,733 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:18,802 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:18,870 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:18,940 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:19,007 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:19,050 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:19,095 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:19,124 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:19,142 : DEBUG : test_002_users : 115 : **** Expected error message matched ****
+2023-03-16 10:36:19,174 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:19,975 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:20,028 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:20,111 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:20,187 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:20,257 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:20,331 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:20,378 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:20,427 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:20,451 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:20,982 : DEBUG : test_002_users : 139 : **** Expected error message matched ****
+2023-03-16 10:36:21,025 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:21,851 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:21,906 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:21,984 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:22,063 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:22,127 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:22,177 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:22,224 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:22,254 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:25,437 : DEBUG : test_002_users : 167 : **** Something went wrong. Expected error did not match ****
+2023-03-16 10:36:25,464 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:26,327 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:26,383 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:26,468 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:26,555 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:26,624 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:26,689 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:26,740 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:26,790 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:26,815 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:27,352 : DEBUG : test_002_users : 186 : **** Expected error message matched ****
+2023-03-16 10:36:27,378 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:28,305 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:28,383 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:28,501 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:28,570 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:28,633 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:28,680 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:28,726 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:28,763 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:28,779 : DEBUG : test_002_users : 209 : **** Expected error message matched ****
+2023-03-16 10:36:28,811 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:29,619 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:29,666 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:29,751 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:29,839 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:29,914 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:29,974 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:30,030 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:30,065 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:30,083 : DEBUG : test_002_users : 232 : **** Expected error message matched ****
+2023-03-16 10:36:30,120 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:30,931 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:30,989 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:31,075 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:31,202 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:31,281 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:31,357 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:31,414 : DEBUG : userPage : 88 : **** Status was selected successfully ****
+2023-03-16 10:36:31,449 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:31,467 : DEBUG : test_002_users : 255 : **** Expected error message matched ****
+2023-03-16 10:36:31,501 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:32,327 : DEBUG : userPage : 23 : **** User add button was clicked successfully ****
+2023-03-16 10:36:32,394 : DEBUG : userPage : 32 : **** Full Names were entered successfully ****
+2023-03-16 10:36:32,484 : DEBUG : userPage : 42 : **** Email was entered successfully ****
+2023-03-16 10:36:32,564 : DEBUG : userPage : 51 : **** Phone number was entered successfully ****
+2023-03-16 10:36:32,641 : DEBUG : userPage : 60 : **** Job title was added successfully ****
+2023-03-16 10:36:32,713 : DEBUG : userPage : 70 : **** Password was entered sucessfully ****
+2023-03-16 10:36:32,766 : DEBUG : userPage : 79 : **** Role was selected successfully ****
+2023-03-16 10:36:32,800 : DEBUG : userPage : 97 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:32,820 : DEBUG : test_002_users : 278 : **** Expected error message matched ****
+2023-03-16 10:36:32,864 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:33,816 : DEBUG : userPage : 123 : **** Edit button was clicked successfully ****
+2023-03-16 10:36:33,852 : DEBUG : userPage : 132 : **** Save button was clicked successfully ****
+2023-03-16 10:36:34,447 : DEBUG : test_002_users : 295 : **** Expected error message matched ****
+2023-03-16 10:36:34,472 : DEBUG : userPage : 114 : **** Close button was clicked successfully ****
+2023-03-16 10:36:35,483 : DEBUG : incidentsPage : 17 : **** Incidents button on the navigation bar was clicked successfully ****
+2023-03-16 10:36:35,501 : DEBUG : test_003_incidents : 26 : **** Incidents landing page was accessed successfully ****
+2023-03-16 10:36:36,419 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:36,598 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:36,719 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:36,768 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:37,044 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:37,150 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:37,246 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:37,307 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:37,339 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:40,505 : DEBUG : test_003_incidents : 51 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
+2023-03-16 10:36:40,534 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:46,379 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:46,509 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:46,570 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:46,643 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:46,725 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:46,803 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:46,865 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:46,911 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:46,948 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:46,971 : DEBUG : test_003_incidents : 71 : **** Error message matched the expected message ****
+2023-03-16 10:36:47,010 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:47,831 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:48,010 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:48,066 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:48,137 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:48,205 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:48,273 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:48,328 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:48,377 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:48,410 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:48,425 : DEBUG : test_003_incidents : 95 : **** Error message matched the expected message ****
+2023-03-16 10:36:48,461 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:49,293 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:49,425 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:49,540 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:49,645 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:49,718 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:49,801 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:49,862 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:49,919 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:49,957 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:49,979 : DEBUG : test_003_incidents : 119 : **** Error message matched the expected message ****
+2023-03-16 10:36:50,025 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:50,855 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:50,985 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:51,105 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:51,159 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:51,236 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:51,310 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:51,358 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:51,412 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:51,450 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:51,463 : DEBUG : test_003_incidents : 143 : **** Error message matched the expected message ****
+2023-03-16 10:36:51,497 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:52,330 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:52,492 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:52,597 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:52,646 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:52,702 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:52,769 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:52,818 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:52,861 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:52,890 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:52,906 : DEBUG : test_003_incidents : 167 : **** Error message matched the expected message ****
+2023-03-16 10:36:52,939 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:53,770 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:53,880 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:53,986 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:54,035 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:54,102 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:54,175 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:54,224 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:54,270 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
+2023-03-16 10:36:54,301 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:54,317 : DEBUG : test_003_incidents : 191 : **** Error message matched the expected message ****
+2023-03-16 10:36:54,352 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:55,171 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
+2023-03-16 10:36:55,291 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
+2023-03-16 10:36:55,406 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
+2023-03-16 10:36:55,458 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
+2023-03-16 10:36:55,531 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
+2023-03-16 10:36:55,603 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
+2023-03-16 10:36:55,678 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
+2023-03-16 10:36:55,732 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
+2023-03-16 10:36:55,770 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:36:55,790 : DEBUG : test_003_incidents : 240 : **** Error message matched the expected message ****
+2023-03-16 10:36:55,838 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:56,659 : DEBUG : incidentsPage : 146 : **** Edit button was clicked successfully ****
+2023-03-16 10:36:56,705 : DEBUG : incidentsPage : 155 : **** Save button was clicked successfully ****
+2023-03-16 10:36:57,244 : DEBUG : test_003_incidents : 257 : **** Confirmation message matched the expected message ****
+2023-03-16 10:36:57,289 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-03-16 10:36:58,240 : DEBUG : incidentCategoriesPage : 17 : **** Manage button was clicked successfully ****
+2023-03-16 10:36:58,278 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
+2023-03-16 10:36:58,346 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
+2023-03-16 10:36:58,433 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
+2023-03-16 10:36:58,466 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
+2023-03-16 10:37:01,659 : DEBUG : test_004_incident_categories : 27 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
+2023-03-16 10:37:01,683 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
+2023-03-16 10:37:02,510 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
+2023-03-16 10:37:02,577 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
+2023-03-16 10:37:02,690 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
+2023-03-16 10:37:02,735 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
+2023-03-16 10:37:03,043 : DEBUG : test_004_incident_categories : 41 : **** Error message matched the expected message ****
+2023-03-16 10:37:03,071 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
+2023-03-16 10:37:03,890 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
+2023-03-16 10:37:03,967 : DEBUG : incidentCategoriesPage : 46 : **** Description was entered successfully ****
+2023-03-16 10:37:03,998 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
+2023-03-16 10:37:04,685 : DEBUG : test_004_incident_categories : 64 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
+2023-03-16 10:37:04,709 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
+2023-03-16 10:37:05,538 : DEBUG : incidentCategoriesPage : 26 : **** Add Incident Category button was clicked successfully ****
+2023-03-16 10:37:05,613 : DEBUG : incidentCategoriesPage : 36 : **** Category name was entered successfully ****
+2023-03-16 10:37:05,648 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
+2023-03-16 10:37:06,089 : DEBUG : test_004_incident_categories : 82 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
+2023-03-16 10:37:06,114 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
+2023-03-16 10:37:06,960 : DEBUG : incidentCategoriesPage : 89 : **** Edit button was clicked successfully ****
+2023-03-16 10:37:07,001 : DEBUG : incidentCategoriesPage : 55 : **** Save button was clicked successfully ****
+2023-03-16 10:37:07,538 : DEBUG : test_004_incident_categories : 95 : **** Confirmation message matched the expected message ****
+2023-03-16 10:37:07,567 : DEBUG : incidentCategoriesPage : 64 : **** Close button was clicked successfully ****
+2023-03-16 10:37:08,379 : DEBUG : incidentTypesPage : 17 : **** Types tab was clicked successfully ****
+2023-03-16 10:37:08,427 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
+2023-03-16 10:37:08,535 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
+2023-03-16 10:37:08,602 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
+2023-03-16 10:37:08,670 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
+2023-03-16 10:37:08,704 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:11,851 : DEBUG : test_005_incident_types : 27 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
+2023-03-16 10:37:11,880 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:12,714 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
+2023-03-16 10:37:12,772 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
+2023-03-16 10:37:12,839 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
+2023-03-16 10:37:12,906 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
+2023-03-16 10:37:12,940 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:13,251 : DEBUG : test_005_incident_types : 42 : **** Error message matched the expected message ****
+2023-03-16 10:37:13,288 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:14,112 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
+2023-03-16 10:37:14,177 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
+2023-03-16 10:37:14,242 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
+2023-03-16 10:37:14,277 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:14,951 : DEBUG : test_005_incident_types : 65 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:14,975 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:15,806 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
+2023-03-16 10:37:15,836 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
+2023-03-16 10:37:15,902 : DEBUG : incidentTypesPage : 53 : **** Type description was added successfully ****
+2023-03-16 10:37:15,942 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:16,380 : DEBUG : test_005_incident_types : 84 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:16,404 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:17,234 : DEBUG : incidentTypesPage : 26 : **** Add Incident Type button was clicked successfully ****
+2023-03-16 10:37:17,256 : DEBUG : incidentTypesPage : 35 : **** Incident category was selected successfully ****
+2023-03-16 10:37:17,317 : DEBUG : incidentTypesPage : 44 : **** Type name was entered successfully ****
+2023-03-16 10:37:17,349 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:17,797 : DEBUG : test_005_incident_types : 103 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:17,821 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:18,663 : DEBUG : incidentTypesPage : 96 : **** Edit button was clicked successfully ****
+2023-03-16 10:37:18,694 : DEBUG : incidentTypesPage : 62 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:19,236 : DEBUG : test_005_incident_types : 116 : **** Confirmation message matched the expected message ****
+2023-03-16 10:37:19,275 : DEBUG : incidentTypesPage : 71 : **** Close button was clicked successfully ****
+2023-03-16 10:37:20,227 : DEBUG : incidentViolationsPage : 17 : **** Violations tab was clicked successfully ****
+2023-03-16 10:37:20,289 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
+2023-03-16 10:37:20,371 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
+2023-03-16 10:37:20,441 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:20,516 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
+2023-03-16 10:37:20,546 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:23,736 : DEBUG : test_006_incident_violations : 27 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:37:23,764 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:24,617 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
+2023-03-16 10:37:24,692 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
+2023-03-16 10:37:24,806 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:24,869 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
+2023-03-16 10:37:24,902 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:25,212 : DEBUG : test_006_incident_violations : 43 : **** Error message matched the expected error message ****
+2023-03-16 10:37:25,237 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:26,189 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
+2023-03-16 10:37:26,268 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:26,332 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
+2023-03-16 10:37:26,374 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:27,046 : DEBUG : test_006_incident_violations : 66 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:27,070 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:27,913 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
+2023-03-16 10:37:27,983 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
+2023-03-16 10:37:28,045 : DEBUG : incidentViolationsPage : 56 : **** Proposed action was entered successfully ****
+2023-03-16 10:37:28,087 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:28,492 : DEBUG : test_006_incident_violations : 85 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:28,516 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:29,464 : DEBUG : incidentViolationsPage : 26 : **** Add Violation button was clicked successfully ****
+2023-03-16 10:37:29,540 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
+2023-03-16 10:37:29,612 : DEBUG : incidentViolationsPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:29,646 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:30,091 : DEBUG : test_006_incident_violations : 104 : **** Something went wrong. Error message did not match the expected error message ****
+2023-03-16 10:37:30,115 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:30,951 : DEBUG : incidentViolationsPage : 99 : **** Edit button was clicked successfully ****
+2023-03-16 10:37:30,985 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-03-16 10:37:31,521 : DEBUG : test_006_incident_violations : 117 : **** Confirmation message matched the expected confirmation message ****
+2023-03-16 10:37:31,562 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-03-16 10:37:32,441 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
+2023-03-16 10:37:32,510 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-03-16 10:37:32,642 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-03-16 10:37:32,728 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-03-16 10:37:33,317 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-03-16 10:37:33,369 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-03-16 10:37:33,424 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-03-16 10:37:33,473 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-03-16 10:37:33,541 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-03-16 10:37:33,616 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-03-16 10:37:33,685 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-03-16 10:37:33,752 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-03-16 10:37:33,866 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-03-16 10:37:33,926 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-03-16 10:37:33,968 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:37:34,489 : DEBUG : test_007_audits : 32 : **** Confirmation message matched the expected confirmation message ****
+2023-03-16 10:37:34,512 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-03-16 10:37:35,397 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
+2023-03-16 10:37:35,466 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-03-16 10:37:35,562 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-03-16 10:37:36,225 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-03-16 10:37:36,272 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-03-16 10:37:36,318 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-03-16 10:37:36,361 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-03-16 10:37:36,437 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-03-16 10:37:36,504 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-03-16 10:37:36,571 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-03-16 10:37:36,638 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-03-16 10:37:36,689 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-03-16 10:37:36,752 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-03-16 10:37:36,787 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-03-16 10:37:36,804 : DEBUG : test_007_audits : 61 : **** Error message matched the expected error message ****
+2023-03-16 10:37:36,844 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-03-16 10:37:37,708 : DEBUG : auditCategoryPage : 17 : **** Manage button was clicked successfully ****
+2023-03-16 10:37:37,742 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
+2023-03-16 10:37:37,803 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
+2023-03-16 10:37:37,866 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:38,448 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
+2023-03-16 10:37:41,643 : DEBUG : test_008_audit_category : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:37:41,667 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
+2023-03-16 10:37:45,636 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
+2023-03-16 10:37:45,681 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
+2023-03-16 10:37:45,753 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
+2023-03-16 10:37:45,823 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:46,400 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
+2023-03-16 10:37:46,870 : DEBUG : test_008_audit_category : 42 : **** Error message matched the expected error message ****
+2023-03-16 10:37:46,895 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
+2023-03-16 10:37:50,791 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
+2023-03-16 10:37:50,839 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
+2023-03-16 10:37:50,906 : DEBUG : auditCategoryPage : 46 : **** Description was added successfully ****
+2023-03-16 10:37:51,488 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
+2023-03-16 10:37:51,500 : DEBUG : test_008_audit_category : 62 : **** Error message matched the expected error message ****
+2023-03-16 10:37:51,530 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
+2023-03-16 10:37:55,387 : DEBUG : auditCategoryPage : 19 : **** Something went wrong. Manage button was not clicked ****
+2023-03-16 10:37:55,431 : DEBUG : auditCategoryPage : 26 : **** Add button was clicked successfully ****
+2023-03-16 10:37:55,494 : DEBUG : auditCategoryPage : 36 : **** Audit category was added successfully ****
+2023-03-16 10:37:56,066 : DEBUG : auditCategoryPage : 59 : **** Add category button was clicked successfully ****
+2023-03-16 10:37:56,079 : DEBUG : test_008_audit_category : 82 : **** Error message matched the expected error message ****
+2023-03-16 10:37:56,149 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
+2023-03-16 10:37:56,981 : DEBUG : auditCategoryPage : 84 : **** Edit button was clicked successfully ****
+2023-03-16 10:37:57,571 : DEBUG : auditCategoryPage : 106 : **** Edit category button was clicked successfully ****
+2023-03-16 10:37:58,206 : DEBUG : test_008_audit_category : 103 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:37:58,230 : DEBUG : auditCategoryPage : 93 : **** Close button was clicked successfully ****
+2023-03-16 10:37:59,180 : DEBUG : auditMeasurePage : 15 : **** Measure tab was clicked successfully ****
+2023-03-16 10:37:59,221 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
+2023-03-16 10:37:59,284 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
+2023-03-16 10:37:59,351 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
+2023-03-16 10:37:59,936 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
+2023-03-16 10:38:03,106 : DEBUG : test_009_audit_measure : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:03,134 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
+2023-03-16 10:38:04,090 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
+2023-03-16 10:38:04,152 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
+2023-03-16 10:38:04,212 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
+2023-03-16 10:38:04,783 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
+2023-03-16 10:38:05,037 : DEBUG : test_009_audit_measure : 41 : **** Error message matched the expected error message ****
+2023-03-16 10:38:05,060 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
+2023-03-16 10:38:05,879 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
+2023-03-16 10:38:05,944 : DEBUG : auditMeasurePage : 44 : **** Measure description was added successfully ****
+2023-03-16 10:38:06,522 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
+2023-03-16 10:38:06,535 : DEBUG : test_009_audit_measure : 60 : **** Error message matched the expected error message ****
+2023-03-16 10:38:06,564 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
+2023-03-16 10:38:07,398 : DEBUG : auditMeasurePage : 24 : **** Add button was added successfully ****
+2023-03-16 10:38:07,467 : DEBUG : auditMeasurePage : 34 : **** Measure name was added successfully ****
+2023-03-16 10:38:08,051 : DEBUG : auditMeasurePage : 57 : **** Add measure button was clicked successfully ****
+2023-03-16 10:38:08,069 : DEBUG : test_009_audit_measure : 79 : **** Error message matched the expected error message ****
+2023-03-16 10:38:08,137 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
+2023-03-16 10:38:08,952 : DEBUG : auditMeasurePage : 81 : **** Edit button was clicked successfully ****
+2023-03-16 10:38:09,546 : DEBUG : auditMeasurePage : 103 : **** Edit measure button was clicked successfully ****
+2023-03-16 10:38:10,158 : DEBUG : test_009_audit_measure : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:10,182 : DEBUG : auditMeasurePage : 90 : **** Close button was clicked successfully ****
+2023-03-16 10:38:11,047 : DEBUG : auditOrganizationPage : 16 : **** Organization tab was clicked successfully ****
+2023-03-16 10:38:11,090 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:11,164 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
+2023-03-16 10:38:11,248 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:11,834 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
+2023-03-16 10:38:15,027 : DEBUG : test_010_audit_organization : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:15,056 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:15,898 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:15,972 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
+2023-03-16 10:38:16,039 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:16,623 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
+2023-03-16 10:38:16,875 : DEBUG : test_010_audit_organization : 41 : **** Error message matched the expected error message ****
+2023-03-16 10:38:16,902 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:17,733 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:17,820 : DEBUG : auditOrganizationPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:18,389 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
+2023-03-16 10:38:18,404 : DEBUG : test_010_audit_organization : 60 : **** Error message matched the expected error message ****
+2023-03-16 10:38:18,441 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:19,269 : DEBUG : auditOrganizationPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:19,345 : DEBUG : auditOrganizationPage : 35 : **** Organization was added successfully ****
+2023-03-16 10:38:19,934 : DEBUG : auditOrganizationPage : 58 : **** Add organization button was clicked successfully ****
+2023-03-16 10:38:19,948 : DEBUG : test_010_audit_organization : 79 : **** Error message matched the expected error message ****
+2023-03-16 10:38:20,003 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:20,916 : DEBUG : auditOrganizationPage : 82 : **** Edit button was clicked successfully ****
+2023-03-16 10:38:21,506 : DEBUG : auditOrganizationPage : 104 : **** Edit measure button was clicked successfully ****
+2023-03-16 10:38:22,114 : DEBUG : test_010_audit_organization : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:22,138 : DEBUG : auditOrganizationPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:22,988 : DEBUG : auditTypesPage : 16 : **** Types tab button was clicked successfully ****
+2023-03-16 10:38:23,026 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:23,099 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
+2023-03-16 10:38:23,171 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:23,743 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
+2023-03-16 10:38:26,867 : DEBUG : test_011_audit_types : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:26,890 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:27,750 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:27,836 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
+2023-03-16 10:38:27,903 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:28,480 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
+2023-03-16 10:38:28,736 : DEBUG : test_011_audit_types : 41 : **** Error message matched the expected error message ****
+2023-03-16 10:38:28,774 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:29,635 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:29,710 : DEBUG : auditTypesPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:30,292 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
+2023-03-16 10:38:30,304 : DEBUG : test_011_audit_types : 60 : **** Error message matched the expected error message ****
+2023-03-16 10:38:30,334 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:31,266 : DEBUG : auditTypesPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:31,328 : DEBUG : auditTypesPage : 35 : **** Type name was added successfully ****
+2023-03-16 10:38:31,889 : DEBUG : auditTypesPage : 58 : **** Add type button was clicked successfully ****
+2023-03-16 10:38:31,903 : DEBUG : test_011_audit_types : 79 : **** Error message matched the expected error message ****
+2023-03-16 10:38:31,932 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:32,799 : DEBUG : auditTypesPage : 82 : **** Edit button was clicked successfully ****
+2023-03-16 10:38:33,373 : DEBUG : auditTypesPage : 104 : **** Edit measure button was clicked successfully ****
+2023-03-16 10:38:33,989 : DEBUG : test_011_audit_types : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:34,012 : DEBUG : auditTypesPage : 91 : **** Close button was clicked successfully ****
+2023-03-16 10:38:34,848 : DEBUG : auditStatusPage : 16 : **** Status tab was clicked successfully ****
+2023-03-16 10:38:34,888 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:34,948 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-16 10:38:35,013 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:35,597 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-16 10:38:38,787 : DEBUG : test_012_audit_status : 26 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:38,811 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-16 10:38:39,651 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:39,712 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-16 10:38:39,780 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:40,365 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-16 10:38:40,620 : DEBUG : test_012_audit_status : 41 : **** Error message matched the expected error message ****
+2023-03-16 10:38:40,659 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-16 10:38:41,512 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:41,571 : DEBUG : auditStatusPage : 45 : **** Description was added successfully ****
+2023-03-16 10:38:42,143 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-16 10:38:42,156 : DEBUG : test_012_audit_status : 60 : **** Error message matched the expected error message ****
+2023-03-16 10:38:42,185 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-16 10:38:43,007 : DEBUG : auditStatusPage : 25 : **** Add button was clicked successfully ****
+2023-03-16 10:38:43,074 : DEBUG : auditStatusPage : 35 : **** Status name was added successfully ****
+2023-03-16 10:38:43,648 : DEBUG : auditStatusPage : 58 : **** Add status button was clicked successfully ****
+2023-03-16 10:38:43,669 : DEBUG : test_012_audit_status : 79 : **** Error message matched the expected error message ****
+2023-03-16 10:38:43,738 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
+2023-03-16 10:38:44,583 : DEBUG : auditStatusPage : 83 : **** Edit button was clicked successfully ****
+2023-03-16 10:38:45,178 : DEBUG : auditStatusPage : 105 : **** Edit status button was clicked successfully ****
+2023-03-16 10:38:45,791 : DEBUG : test_012_audit_status : 100 : **** Something went wrong. Confirmation message did not match the expected confirmation message ****
+2023-03-16 10:38:45,814 : DEBUG : auditStatusPage : 92 : **** Close button was clicked successfully ****
