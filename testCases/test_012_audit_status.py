@@ -4,7 +4,7 @@ from pageObjects.auditStatusPage import AuditStatus
 import time
 
 
-class Test_011_status:
+class Test_012_status:
     base_url = ReadConfig.get_app_url()
     logger = LogGen().log_gen()
 
