@@ -14,7 +14,7 @@ class Test_002_users:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail("admin@pontypriddholdings.com")
+        login.enterEmail("victor.mwai@quatrixglobal.com")
         login.enterPassword("123456")
         login.clickLogin()
         self.logger.debug("**** Login was successful ****")

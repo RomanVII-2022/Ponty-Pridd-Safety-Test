@@ -30,7 +30,7 @@ class AuditActions:
 
     def addAction(self):
         try:
-            add = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add Action']")
+            add = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add']")
             add.click()
             self.logger.debug("**** Add action button was clicked successfully ****")
         except:

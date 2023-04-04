@@ -48,7 +48,7 @@ class Test_013_action:
         audit.auditStatus("Open")
         audit.saveClose()
         err = audit.errormsg()
-        if err == "Action already exists":
+        if err == "Action Already Exists":
             assert True
             self.logger.debug("**** Error message matched the expected error message ****")
             audit.closeBtn()
