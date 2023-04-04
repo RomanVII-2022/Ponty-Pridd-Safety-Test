@@ -13,10 +13,11 @@ class Test_005_Incident_Type:
         types = IncidentTypes(self.driver, self.logger)
         types.typesTab()
         types.addIncidentType()
-        types.selectCategory("Non-Compliance")
-        types.typeName("Route Breach")
-        types.typeDescription("Route breach")
+        types.selectCategory("overspeeding")
+        types.typeName("Overspeeding")
+        types.typeDescription("Overspeeding")
         types.saveBtn()
+        time.sleep(3)
         confmsg = types.confirmMessage()
         if confmsg == "Incident Type Added Successfully":
             assert True
@@ -32,9 +33,9 @@ class Test_005_Incident_Type:
         self.driver = setup
         types = IncidentTypes(self.driver, self.logger)
         types.addIncidentType()
-        types.selectCategory("Security")
-        types.typeName("Security Issue")
-        types.typeDescription("Security Issues")
+        types.selectCategory("overspeeding")
+        types.typeName("Overspeeding")
+        types.typeDescription("Overspeeding")
         types.saveBtn()
         errmsg = types.errormsg()
         if errmsg == "Incident type already exists":
@@ -71,7 +72,7 @@ class Test_005_Incident_Type:
         self.driver = setup
         types = IncidentTypes(self.driver, self.logger)
         types.addIncidentType()
-        types.selectCategory("Security")
+        types.selectCategory("overspeeding")
         types.typeDescription("Security Issues")
         types.saveBtn()
         errmsg = types.errormsg()
@@ -90,7 +91,7 @@ class Test_005_Incident_Type:
         self.driver = setup
         types = IncidentTypes(self.driver, self.logger)
         types.addIncidentType()
-        types.selectCategory("Security")
+        types.selectCategory("overspeeding")
         types.typeName("Security Issue")
         types.saveBtn()
         errmsg = types.errormsg()

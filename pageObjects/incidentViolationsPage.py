@@ -21,7 +21,7 @@ class IncidentTypes:
 
     def addViolation(self):
         try:
-            btn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add Violation']")
+            btn = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-secondary mb-1'][normalize-space()='Add'])[3]")
             btn.click()
             self.logger.debug("**** Add Violation button was clicked successfully ****")
         except:
@@ -94,7 +94,7 @@ class IncidentTypes:
 
     def editBtn(self):
         try:
-            btn = self.driver.find_element(By.XPATH, "//body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[5]/button[1]")
+            btn = self.driver.find_element(By.XPATH, "(//button[@data-toggle='modal'])[5]")
             btn.click()
             self.logger.debug("**** Edit button was clicked successfully ****")
         except:

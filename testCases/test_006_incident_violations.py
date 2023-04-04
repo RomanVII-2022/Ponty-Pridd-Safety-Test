@@ -13,10 +13,11 @@ class Test_006_Incident_Violations:
         violations = IncidentTypes(self.driver, self.logger)
         violations.tabVilotation()
         violations.addViolation()
-        violations.violationName("Over Speeding Update")
-        violations.violationDescription("Over 100km/hr")
+        violations.violationName("Drunk driving")
+        violations.violationDescription("Drunk driving")
         violations.proposedAction("Suspend")
         violations.saveBtn()
+        time.sleep(3)
         confmsg = violations.confirmMessage()
         if confmsg == "Violation Added Succesfully":
             assert True
@@ -33,12 +34,12 @@ class Test_006_Incident_Violations:
         self.driver = setup
         violations = IncidentTypes(self.driver, self.logger)
         violations.addViolation()
-        violations.violationName("Violation")
-        violations.violationDescription("Violation Description")
-        violations.proposedAction("Exile")
+        violations.violationName("Drunk driving")
+        violations.violationDescription("Drunk driving")
+        violations.proposedAction("Suspend")
         violations.saveBtn()
         errmsg = violations.errormsg()
-        if errmsg == "Request failed with status code 400":
+        if errmsg == "Violation Already Exists":
             assert True
             self.logger.debug("**** Error message matched the expected error message ****")
             violations.closeBtn()
@@ -53,9 +54,11 @@ class Test_006_Incident_Violations:
         self.driver = setup
         violations = IncidentTypes(self.driver, self.logger)
         violations.addViolation()
+        time.sleep(5)
         violations.violationDescription("Violation Description")
         violations.proposedAction("Exile")
         violations.saveBtn()
+        time.sleep(5)
         errmsg = violations.errormsg()
         if errmsg == "Name cannot be Empty":
             assert True
@@ -110,6 +113,7 @@ class Test_006_Incident_Violations:
         self.driver = setup
         violations = IncidentTypes(self.driver, self.logger)
         violations.editBtn()
+        violations.violationName("Over")
         violations.saveBtn()
         confmsg = violations.confirmMessage()
         if confmsg == "Violation Edited Succesfully":

@@ -14,8 +14,8 @@ class Test_004_Incident_Category:
         categories = IncidentCategories(self.driver, self.logger)
         categories.manageBtn()
         categories.addIncidentCategory()
-        categories.categoryName("Stealing")
-        categories.categoryDescription("Stealing Description")
+        categories.categoryName("stealing")
+        categories.categoryDescription("stealing")
         categories.saveBtn()
         confmsg = categories.confirmMessage()
         if confmsg == "Category Added Successfully":

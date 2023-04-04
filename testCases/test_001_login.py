@@ -24,12 +24,12 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail("admin@pontypriddholdings.com")
+        login.enterEmail("victor.mwai@quatrixglobal.com")
         login.enterPassword("123456")
         login.clickLogin()
         time.sleep(3)
         Url = self.driver.current_url
-        if Url == "https://dev.safety.pontypriddholdings.com/home":
+        if Url == self.base_url + 'home':
             self.logger.debug("**** Login was successfull ****")
             assert True
         else:
@@ -56,7 +56,7 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail("admin@pontypriddholdings.com")
+        login.enterEmail("victor.mwai@quatrixglobal.com")
         login.enterPassword("1234")
         login.clickLogin()
         errormsg = login.errorMessage()
@@ -88,10 +88,10 @@ class Test_001_Login:
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
         login.forgotPassword()
-        login.forgotEmail("abc@gmail.com")
+        login.forgotEmail("victor.mwai@quatrixglobal.com")
         login.resetBtn()
         msg = login.passwordResetEmail()
-        if msg == "An email with the reset link has been sent.":
+        if msg == "An email with the reset link has been sent":
             self.logger.debug("**** The two alert messages matched ****")
             assert True
         else:
@@ -107,8 +107,8 @@ class Test_001_Login:
         login.forgotPassword()
         login.forgotEmail("nodejs@pontypriddholdings.com")
         login.resetBtn()
-        msg = login.passwordResetEmail()
-        if msg != "An email with the reset link has been sent.":
+        msg = login.textDanger()
+        if msg == "Account does not exist":
             self.logger.debug("**** Password reset link was not sent ****")
             assert True
         else:

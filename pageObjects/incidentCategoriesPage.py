@@ -21,7 +21,7 @@ class IncidentCategories:
 
     def addIncidentCategory(self):
         try:
-            addbtn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Add Incident Category']")
+            addbtn = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-secondary mb-1'][normalize-space()='Add'])[1]")
             addbtn.click()
             self.logger.debug("**** Add Incident Category button was clicked successfully ****")
         except:

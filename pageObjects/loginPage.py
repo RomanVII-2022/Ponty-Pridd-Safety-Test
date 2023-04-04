@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import time
 
 
 class Login:
@@ -75,11 +76,20 @@ class Login:
 
     def passwordResetEmail(self):
         try:
-            msg = self.driver.find_element(By.XPATH, "//h4[normalize-space()='An email with the reset link has been sent.']")
+            msg = self.driver.find_element(By.XPATH, "//div[@class='confmsg']")
             self.logger.debug("**** Password reset alert message was found successfully ****")
             return msg.text
         except:
             self.logger.debug("**** Something went wrong while finding password reset alert message ****")
+
+    def textDanger(self):
+        try:
+            msg = self.driver.find_element(By.XPATH, "//div[@class='text-danger']")
+            self.logger.debug("**** Error message was found ***")
+            time.sleep(3)
+            return msg.text
+        except:
+            self.logger.debug("*** Something went wrong. Error message was not found ****")
 
 
 
