@@ -21,7 +21,7 @@ class AuditCategory:
 
     def addBtn(self):
         try:
-            add = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-warning my-2'][normalize-space()='Add'])[1]")
+            add = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-secondary my-1'][normalize-space()='Add'])[1]")
             add.click()
             self.logger.debug("**** Add button was clicked successfully ****")
         except:

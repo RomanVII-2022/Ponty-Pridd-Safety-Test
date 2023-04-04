@@ -19,7 +19,7 @@ class AuditMeasure:
 
     def addBtn(self):
         try:
-            add = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-warning my-2'][normalize-space()='Add'])[2]")
+            add = self.driver.find_element(By.XPATH, "(//button[@class='btn btn-secondary my-1'][normalize-space()='Add'])[2]")
             add.click()
             self.logger.debug("**** Add button was added successfully ****")
         except:

@@ -13,8 +13,8 @@ class Test_008_Audit_Category:
         aCategory = AuditCategory(self.driver, self.logger)
         aCategory.manageBtn()
         aCategory.addBtn()
-        aCategory.auditCategory("Health")
-        aCategory.auditDescription("Health")
+        aCategory.auditCategory("Management")
+        aCategory.auditDescription("Management")
         aCategory.addCategory()
         succ = aCategory.confirmMessage()
         if succ == "Category added successfully":
@@ -94,12 +94,12 @@ class Test_008_Audit_Category:
         aCategory.editBtn()
         aCategory.editCategory()
         succ = aCategory.confirmMessage()
-        if succ == "Category edited successfully":
+        if succ == "Category Updated successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected confirmation message ****")
             aCategory.closeBtn()
         else:
-            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/auditaddcategory.png")
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/auditeditcategory.png")
             self.logger.debug("**** Something went wrong. Confirmation message did not match the expected confirmation message ****")
             aCategory.closeBtn()
             assert False

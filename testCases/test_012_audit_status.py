@@ -91,7 +91,7 @@ class Test_012_status:
         status.editBtn()
         status.editStatus()
         conf = status.confirmMessage()
-        if conf == "Status edited successfully":
+        if conf == "Status Updated successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected confirmation message ****")
             status.closeBtn()

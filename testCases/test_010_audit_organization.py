@@ -13,8 +13,8 @@ class Test_010_Organization:
         organization = Organization(self.driver, self.logger)
         organization.tabOrganization()
         organization.addBtn()
-        organization.nameOrganization("Quatrix Global")
-        organization.descriptionOrganization("Quatrix Global")
+        organization.nameOrganization("Global")
+        organization.descriptionOrganization("Global")
         organization.addOrg()
         conf = organization.confirmMessage()
         if conf == "Organization added successfully":
@@ -91,7 +91,7 @@ class Test_010_Organization:
         organization.editBtn()
         organization.editOrg()
         conf = organization.confirmMessage()
-        if conf == "Organization edited successfully":
+        if conf == "Organization Updated successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected confirmation message ****")
             organization.closeBtn()

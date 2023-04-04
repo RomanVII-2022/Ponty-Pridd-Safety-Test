@@ -13,8 +13,8 @@ class Test_011_Types:
         types = AuditTypes(self.driver, self.logger)
         types.typesTab()
         types.addBtn()
-        types.nameType("Internal")
-        types.descriptionType("Internal")
+        types.nameType("Monthly")
+        types.descriptionType("Monthly")
         types.addType()
         conf = types.confirmMessage()
         if conf == "Type added successfully":
@@ -91,12 +91,12 @@ class Test_011_Types:
         types.editBtn()
         types.editType()
         conf = types.confirmMessage()
-        if conf == "Type edited successfully":
+        if conf == "Type Updated successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected confirmation message ****")
             types.closeBtn()
         else:
-            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/auditaddtypes.png")
+            self.driver.save_screenshot("/home/vmwai/Documents/tests/PontySafety/screenshots/auditedittypes.png")
             self.logger.debug("**** Something went wrong. Confirmation message did not match the expected confirmation message ****")
             types.closeBtn()
             assert False

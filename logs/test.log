@@ -1,94 +1,203 @@
-2023-03-29 16:56:34,577 : DEBUG : incidentsPage : 17 : **** Incidents button on the navigation bar was clicked successfully ****
-2023-03-29 16:56:34,590 : DEBUG : test_003_incidents : 26 : **** Incidents landing page was accessed successfully ****
-2023-03-29 16:56:35,537 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:35,646 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:35,764 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:35,815 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:36,048 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:36,127 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:36,202 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:36,246 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:36,280 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:39,458 : DEBUG : test_003_incidents : 51 : **** Something went wrong. Corfimation message did not match the expected confirmation message ****
-2023-03-29 16:56:39,492 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:40,406 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:40,515 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:40,566 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:40,641 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:40,722 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:40,796 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:40,849 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:40,894 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:40,928 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:40,944 : DEBUG : test_003_incidents : 71 : **** Error message matched the expected message ****
-2023-03-29 16:56:40,980 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:41,952 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:42,056 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:42,107 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:42,180 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:42,269 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:42,341 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:42,402 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:42,448 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:42,482 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:42,498 : DEBUG : test_003_incidents : 95 : **** Error message matched the expected message ****
-2023-03-29 16:56:42,533 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:43,534 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:43,636 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:43,734 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:43,819 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:43,890 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:43,961 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:44,017 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:44,066 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:44,102 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:44,118 : DEBUG : test_003_incidents : 119 : **** Error message matched the expected message ****
-2023-03-29 16:56:44,154 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:45,020 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:45,153 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:45,265 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:45,320 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:45,394 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:45,467 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:45,515 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:45,561 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:45,587 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:45,604 : DEBUG : test_003_incidents : 143 : **** Error message matched the expected message ****
-2023-03-29 16:56:45,634 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:46,446 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:46,545 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:46,637 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:46,682 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:46,737 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:46,822 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:46,869 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:46,913 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:46,948 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:46,966 : DEBUG : test_003_incidents : 167 : **** Error message matched the expected message ****
-2023-03-29 16:56:46,999 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:47,816 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:47,927 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:48,038 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:48,087 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:48,174 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:48,238 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:48,287 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:48,330 : DEBUG : incidentsPage : 105 : **** Incident date was added successfully ****
-2023-03-29 16:56:48,364 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:48,379 : DEBUG : test_003_incidents : 191 : **** Error message matched the expected message ****
-2023-03-29 16:56:48,416 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:49,287 : DEBUG : incidentsPage : 25 : **** Add Incident button was clicked successfully ****
-2023-03-29 16:56:49,398 : DEBUG : incidentsPage : 37 : **** Vehicle was entered successfully ****
-2023-03-29 16:56:49,517 : DEBUG : incidentsPage : 49 : **** Driver was entered successfully ****
-2023-03-29 16:56:49,566 : DEBUG : incidentsPage : 58 : **** Incident was added successfully ****
-2023-03-29 16:56:49,629 : DEBUG : incidentsPage : 68 : **** Description was added successfully ****
-2023-03-29 16:56:49,695 : DEBUG : incidentsPage : 78 : **** Action was entered successfully ****
-2023-03-29 16:56:49,762 : DEBUG : incidentsPage : 88 : **** Location was entered successfully ****
-2023-03-29 16:56:49,811 : DEBUG : incidentsPage : 97 : **** Violation was selected successfully. ****
-2023-03-29 16:56:49,839 : DEBUG : incidentsPage : 114 : **** Save and Close button was clicked successfully ****
-2023-03-29 16:56:49,855 : DEBUG : test_003_incidents : 240 : **** Error message matched the expected message ****
-2023-03-29 16:56:49,890 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
-2023-03-29 16:56:50,707 : DEBUG : incidentsPage : 146 : **** Edit button was clicked successfully ****
-2023-03-29 16:56:50,746 : DEBUG : incidentsPage : 155 : **** Save button was clicked successfully ****
-2023-03-29 16:56:51,282 : DEBUG : test_003_incidents : 257 : **** Confirmation message matched the expected message ****
-2023-03-29 16:56:51,322 : DEBUG : incidentsPage : 129 : **** Close button was clicked successfully ****
+2023-04-04 10:57:29,804 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
+2023-04-04 10:57:29,874 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:29,958 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:30,129 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:31,618 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:31,679 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:31,739 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:31,803 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:31,860 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:31,921 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:31,978 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:32,042 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:32,096 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:32,157 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:32,191 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:32,848 : DEBUG : test_007_audits : 32 : **** Confirmation message matched the expected confirmation message ****
+2023-04-04 10:57:32,873 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:33,885 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:33,962 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:34,107 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:34,230 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:34,277 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:34,325 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:34,367 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:34,424 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:34,488 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:34,551 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:34,612 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:34,662 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:34,729 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:34,754 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:35,180 : DEBUG : test_007_audits : 65 : **** Something went wrong. Error message did not match the expected error message ****
+2023-04-04 10:57:35,211 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:36,334 : DEBUG : auditsPage : 18 : **** Audit button on the navigation bar was clicked ****
+2023-04-04 10:57:36,392 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:36,458 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:37,243 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:37,291 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:37,343 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:37,394 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:37,457 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:37,533 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:37,598 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:37,662 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:37,714 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:37,783 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:37,816 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:37,833 : DEBUG : test_007_audits : 90 : **** Error message matched the expected error message ****
+2023-04-04 10:57:37,868 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:38,858 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:38,933 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:39,170 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:39,223 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:39,274 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:39,328 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:39,395 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:39,474 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:39,541 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:39,606 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:39,660 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:39,719 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:39,752 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:39,768 : DEBUG : test_007_audits : 117 : **** Error message matched the expected error message ****
+2023-04-04 10:57:39,802 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:40,768 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:40,852 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:40,920 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:41,156 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:41,216 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:41,268 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:41,337 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:41,413 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:41,484 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:41,554 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:41,616 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:41,683 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:41,716 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:41,734 : DEBUG : test_007_audits : 145 : **** Error message matched the expected error message ****
+2023-04-04 10:57:41,770 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:42,705 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:42,782 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:42,853 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:43,256 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:43,321 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:43,399 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:43,465 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:43,526 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:43,585 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:43,642 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:43,689 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:43,755 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:43,821 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:43,837 : DEBUG : test_007_audits : 173 : **** Error message matched the expected error message ****
+2023-04-04 10:57:43,870 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:44,797 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:44,867 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:44,932 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:45,169 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:45,220 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:45,268 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:45,329 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:45,403 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:45,471 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:45,537 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:45,590 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:45,656 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:45,685 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:45,700 : DEBUG : test_007_audits : 202 : **** Error message matched the expected error message ****
+2023-04-04 10:57:45,731 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:46,686 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:46,754 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:46,822 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:46,997 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:47,051 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:47,101 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:47,171 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:47,267 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:47,338 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:47,405 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:47,458 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:47,525 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:47,563 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:47,576 : DEBUG : test_007_audits : 231 : **** Error message matched the expected error message ****
+2023-04-04 10:57:47,609 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:48,577 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:48,652 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:48,724 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:49,125 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:49,184 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:49,240 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:49,291 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:49,358 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:49,430 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:49,503 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:49,558 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:49,625 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:49,658 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:49,676 : DEBUG : test_007_audits : 260 : **** Error message matched the expected error message ****
+2023-04-04 10:57:49,710 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:50,647 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:50,725 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:50,814 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:50,934 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:51,000 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:51,058 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:51,117 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:51,189 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:51,262 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:51,340 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:51,402 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:51,470 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:51,506 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:51,524 : DEBUG : test_007_audits : 289 : **** Error message matched the expected error message ****
+2023-04-04 10:57:51,566 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:52,386 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:52,467 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:52,541 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:52,720 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:52,776 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:52,835 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:52,883 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:52,947 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:53,010 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:53,073 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:53,168 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:53,233 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:53,263 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:53,279 : DEBUG : test_007_audits : 318 : **** Error message matched the expected error message ****
+2023-04-04 10:57:53,309 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:54,236 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:54,315 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:54,390 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:54,801 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:54,854 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:54,905 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:54,959 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:55,031 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:55,100 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:55,170 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:55,217 : DEBUG : auditsPage : 132 : **** Audit Status was selected successfully ****
+2023-04-04 10:57:55,275 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:55,307 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:55,325 : DEBUG : test_007_audits : 347 : **** Error message matched the expected error message ****
+2023-04-04 10:57:55,358 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:56,167 : DEBUG : auditsPage : 27 : **** Add button was clicked successfully ****
+2023-04-04 10:57:56,236 : DEBUG : auditsPage : 37 : **** Audit name was entered successfully ****
+2023-04-04 10:57:56,303 : DEBUG : auditsPage : 47 : **** Audit description was entered successfully ****
+2023-04-04 10:57:56,476 : DEBUG : auditsPage : 56 : **** Audit type was selected successfully ****
+2023-04-04 10:57:56,525 : DEBUG : auditsPage : 65 : **** Organization requesting audit was selected successfully ****
+2023-04-04 10:57:56,574 : DEBUG : auditsPage : 74 : **** Audit Measure was selected successfully ****
+2023-04-04 10:57:56,625 : DEBUG : auditsPage : 83 : **** Audit Category was selected successfully ****
+2023-04-04 10:57:56,689 : DEBUG : auditsPage : 93 : **** Raised by was entered successfully ****
+2023-04-04 10:57:56,759 : DEBUG : auditsPage : 103 : **** Date raised was entered successfully ****
+2023-04-04 10:57:56,834 : DEBUG : auditsPage : 113 : **** Date due was entered successfully ****
+2023-04-04 10:57:56,903 : DEBUG : auditsPage : 123 : **** Assigned to was entered successfully ****
+2023-04-04 10:57:56,967 : DEBUG : auditsPage : 142 : **** Audit note was entered successfully ****
+2023-04-04 10:57:57,006 : DEBUG : auditsPage : 151 : **** Save and Close button was clicked successfully ****
+2023-04-04 10:57:57,021 : DEBUG : test_007_audits : 376 : **** Error message matched the expected error message ****
+2023-04-04 10:57:57,053 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****
+2023-04-04 10:57:57,863 : DEBUG : auditsPage : 185 : **** Edit button was clicked successfully ****
+2023-04-04 10:58:01,400 : DEBUG : auditsPage : 198 : **** Update button was clicked successfully ****
+2023-04-04 10:58:01,923 : DEBUG : test_007_audits : 393 : **** Confirmation message matched the expected confirmation message ****
+2023-04-04 10:58:01,949 : DEBUG : auditsPage : 160 : **** Close button was clicked successfully ****

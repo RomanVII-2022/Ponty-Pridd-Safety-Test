@@ -91,7 +91,7 @@ class Test_009_AuditMeasure:
         measure.editBtn()
         measure.editMeasure()
         conf = measure.confirmMessage()
-        if conf == "Measure edited successfully":
+        if conf == "Measure Updated successfully":
             assert True
             self.logger.debug("**** Confirmation message matched the expected confirmation message ****")
             measure.closeBtn()
