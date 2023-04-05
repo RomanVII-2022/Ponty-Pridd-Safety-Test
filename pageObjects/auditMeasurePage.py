@@ -76,7 +76,7 @@ class AuditMeasure:
 
     def editBtn(self):
         try:
-            btn = self.driver.find_element(By.XPATH, "//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/button[1]")
+            btn = self.driver.find_element(By.XPATH, "(//button[@type='button'])[15]")
             btn.click()
             self.logger.debug("**** Edit button was clicked successfully ****")
         except:

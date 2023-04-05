@@ -94,7 +94,7 @@ class IncidentTypes:
 
     def editBtn(self):
         try:
-            btn = self.driver.find_element(By.XPATH, "(//button[@data-toggle='modal'])[5]")
+            btn = self.driver.find_element(By.XPATH, "(//button[@data-toggle='modal'])[18]")
             btn.click()
             self.logger.debug("**** Edit button was clicked successfully ****")
         except:

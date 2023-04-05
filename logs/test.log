@@ -1,21 +1,5 @@
-2023-04-04 12:33:53,326 : DEBUG : auditActionPage : 35 : **** Add action button was clicked successfully ****
-2023-04-04 12:33:53,398 : DEBUG : auditActionPage : 45 : **** Action name was entered successfully ****
-2023-04-04 12:33:53,493 : DEBUG : auditActionPage : 55 : **** Description was added successfully ****
-2023-04-04 12:33:53,613 : DEBUG : auditActionPage : 65 : **** Raised by was entered successfully ****
-2023-04-04 12:33:53,724 : DEBUG : auditActionPage : 75 : **** Date raised was entered successfully ****
-2023-04-04 12:33:53,839 : DEBUG : auditActionPage : 85 : **** Responsible was entered successfully ****
-2023-04-04 12:33:53,956 : DEBUG : auditActionPage : 95 : **** Date due was entered successfully ****
-2023-04-04 12:33:54,068 : DEBUG : auditActionPage : 104 : **** Audit Status was selected successfully ****
-2023-04-04 12:33:54,118 : DEBUG : auditActionPage : 113 : **** Save and Close button was clicked successfully ****
-2023-04-04 12:33:54,659 : DEBUG : test_013_audit_action : 53 : **** Error message matched the expected error message ****
-2023-04-04 12:33:54,691 : DEBUG : auditActionPage : 122 : **** Close button was clicked successfully ****
-2023-04-04 12:33:55,616 : DEBUG : auditActionPage : 35 : **** Add action button was clicked successfully ****
-2023-04-04 12:33:55,707 : DEBUG : auditActionPage : 55 : **** Description was added successfully ****
-2023-04-04 12:33:55,777 : DEBUG : auditActionPage : 65 : **** Raised by was entered successfully ****
-2023-04-04 12:33:55,834 : DEBUG : auditActionPage : 75 : **** Date raised was entered successfully ****
-2023-04-04 12:33:55,894 : DEBUG : auditActionPage : 85 : **** Responsible was entered successfully ****
-2023-04-04 12:33:55,953 : DEBUG : auditActionPage : 95 : **** Date due was entered successfully ****
-2023-04-04 12:33:55,996 : DEBUG : auditActionPage : 104 : **** Audit Status was selected successfully ****
-2023-04-04 12:33:56,027 : DEBUG : auditActionPage : 113 : **** Save and Close button was clicked successfully ****
-2023-04-04 12:33:56,039 : DEBUG : test_013_audit_action : 77 : **** Error message matched the expected error message ****
-2023-04-04 12:33:56,067 : DEBUG : auditActionPage : 122 : **** Close button was clicked successfully ****
+2023-04-05 10:19:55,934 : DEBUG : incidentViolationsPage : 99 : **** Edit button was clicked successfully ****
+2023-04-05 10:19:56,000 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
+2023-04-05 10:19:56,037 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
+2023-04-05 10:19:57,081 : DEBUG : test_006_incident_violations : 121 : **** Confirmation message matched the expected confirmation message ****
+2023-04-05 10:19:57,107 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
