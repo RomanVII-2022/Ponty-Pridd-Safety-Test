@@ -1,5 +1,29 @@
-2023-04-05 10:19:55,934 : DEBUG : incidentViolationsPage : 99 : **** Edit button was clicked successfully ****
-2023-04-05 10:19:56,000 : DEBUG : incidentViolationsPage : 36 : **** Violation name was added successfully ****
-2023-04-05 10:19:56,037 : DEBUG : incidentViolationsPage : 65 : **** Save button was clicked succcessfully ****
-2023-04-05 10:19:57,081 : DEBUG : test_006_incident_violations : 121 : **** Confirmation message matched the expected confirmation message ****
-2023-04-05 10:19:57,107 : DEBUG : incidentViolationsPage : 74 : **** Close button was clicked successfully ****
+2023-04-27 11:16:30,493 : DEBUG : test_001_login : 13 : **** Website accessed successfully ****
+2023-04-27 11:16:30,502 : DEBUG : test_001_login : 16 : **** Website title matches ****
+2023-04-27 11:16:31,766 : DEBUG : loginPage : 18 : **** Email was entered successfully ****
+2023-04-27 11:16:31,829 : DEBUG : loginPage : 28 : **** Password was entered successfully ****
+2023-04-27 11:16:31,874 : DEBUG : loginPage : 37 : **** Login button was clicked successfully ****
+2023-04-27 11:16:35,021 : DEBUG : test_001_login : 37 : **** Something went wrong while logging in ****
+2023-04-27 11:16:36,325 : DEBUG : loginPage : 18 : **** Email was entered successfully ****
+2023-04-27 11:16:36,394 : DEBUG : loginPage : 28 : **** Password was entered successfully ****
+2023-04-27 11:16:36,427 : DEBUG : loginPage : 37 : **** Login button was clicked successfully ****
+2023-04-27 11:16:36,716 : DEBUG : loginPage : 44 : **** Message was found successfully ****
+2023-04-27 11:16:37,945 : DEBUG : loginPage : 18 : **** Email was entered successfully ****
+2023-04-27 11:16:38,045 : DEBUG : loginPage : 28 : **** Password was entered successfully ****
+2023-04-27 11:16:38,080 : DEBUG : loginPage : 37 : **** Login button was clicked successfully ****
+2023-04-27 11:16:38,557 : DEBUG : loginPage : 44 : **** Message was found successfully ****
+2023-04-27 11:16:38,686 : DEBUG : test_001_login : 67 : **** Error messsage shown did not match ****
+2023-04-27 11:16:39,961 : DEBUG : loginPage : 18 : **** Email was entered successfully ****
+2023-04-27 11:16:40,024 : DEBUG : loginPage : 28 : **** Password was entered successfully ****
+2023-04-27 11:16:40,055 : DEBUG : loginPage : 37 : **** Login button was clicked successfully ****
+2023-04-27 11:16:40,330 : DEBUG : loginPage : 44 : **** Message was found successfully ****
+2023-04-27 11:16:41,811 : DEBUG : loginPage : 53 : **** Forgot password link was clicked successfully ****
+2023-04-27 11:16:41,893 : DEBUG : loginPage : 63 : **** Email was entered successfully ****
+2023-04-27 11:16:41,930 : DEBUG : loginPage : 72 : **** Reset button was clicked successfully ****
+2023-04-27 11:16:44,967 : DEBUG : loginPage : 83 : **** Something went wrong while finding password reset alert message ****
+2023-04-27 11:16:45,095 : DEBUG : test_001_login : 99 : **** The two alert messages did not match ****
+2023-04-27 11:16:46,128 : DEBUG : loginPage : 53 : **** Forgot password link was clicked successfully ****
+2023-04-27 11:16:46,231 : DEBUG : loginPage : 63 : **** Email was entered successfully ****
+2023-04-27 11:16:46,279 : DEBUG : loginPage : 72 : **** Reset button was clicked successfully ****
+2023-04-27 11:16:46,285 : DEBUG : loginPage : 88 : **** Error message was found ***
+2023-04-27 11:16:49,307 : DEBUG : test_001_login : 112 : **** Password reset link was not sent ****

@@ -24,7 +24,7 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail("victor.mwai@quatrixglobal.com")
+        login.enterEmail("admin@quatrixglobal.com")
         login.enterPassword("123456")
         login.clickLogin()
         time.sleep(3)
@@ -56,7 +56,7 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
-        login.enterEmail("victor.mwai@quatrixglobal.com")
+        login.enterEmail("admin@quatrixglobal.com")
         login.enterPassword("1234")
         login.clickLogin()
         errormsg = login.errorMessage()
@@ -88,7 +88,7 @@ class Test_001_Login:
         self.driver.get(self.base_url)
         login = Login(self.driver, self.logger)
         login.forgotPassword()
-        login.forgotEmail("victor.mwai@quatrixglobal.com")
+        login.forgotEmail("admin@quatrixglobal.com")
         login.resetBtn()
         msg = login.passwordResetEmail()
         if msg == "An email with the reset link has been sent":
